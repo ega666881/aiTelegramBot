@@ -1,0 +1,1146 @@
+[
+    {
+        "label": "Sequence",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Union",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Sequence",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Union",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Sequence",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Union",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Sequence",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Union",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "op",
+        "importPath": "alembic",
+        "description": "alembic",
+        "isExtraImport": true,
+        "detail": "alembic",
+        "documentation": {}
+    },
+    {
+        "label": "op",
+        "importPath": "alembic",
+        "description": "alembic",
+        "isExtraImport": true,
+        "detail": "alembic",
+        "documentation": {}
+    },
+    {
+        "label": "op",
+        "importPath": "alembic",
+        "description": "alembic",
+        "isExtraImport": true,
+        "detail": "alembic",
+        "documentation": {}
+    },
+    {
+        "label": "op",
+        "importPath": "alembic",
+        "description": "alembic",
+        "isExtraImport": true,
+        "detail": "alembic",
+        "documentation": {}
+    },
+    {
+        "label": "context",
+        "importPath": "alembic",
+        "description": "alembic",
+        "isExtraImport": true,
+        "detail": "alembic",
+        "documentation": {}
+    },
+    {
+        "label": "sqlalchemy",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "engine_from_config",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "pool",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Integer",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "String",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Integer",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "String",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "DateTime",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "select",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "select",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "select",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "select",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "select",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "fileConfig",
+        "importPath": "logging.config",
+        "description": "logging.config",
+        "isExtraImport": true,
+        "detail": "logging.config",
+        "documentation": {}
+    },
+    {
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "importPath": "src.database.models.base",
+        "description": "src.database.models.base",
+        "isExtraImport": true,
+        "detail": "src.database.models.base",
+        "documentation": {}
+    },
+    {
+        "label": "DeclarativeBase",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "Mapped",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "mapped_column",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "DeclarativeBase",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "Mapped",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "mapped_column",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "DeclarativeBase",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncSession",
+        "importPath": "sqlalchemy.ext.asyncio",
+        "description": "sqlalchemy.ext.asyncio",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.ext.asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "create_async_engine",
+        "importPath": "sqlalchemy.ext.asyncio",
+        "description": "sqlalchemy.ext.asyncio",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.ext.asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "async_sessionmaker",
+        "importPath": "sqlalchemy.ext.asyncio",
+        "description": "sqlalchemy.ext.asyncio",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.ext.asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncSession",
+        "importPath": "sqlalchemy.ext.asyncio",
+        "description": "sqlalchemy.ext.asyncio",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.ext.asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncSession",
+        "importPath": "sqlalchemy.ext.asyncio",
+        "description": "sqlalchemy.ext.asyncio",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.ext.asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncSession",
+        "importPath": "sqlalchemy.ext.asyncio",
+        "description": "sqlalchemy.ext.asyncio",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.ext.asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncSession",
+        "importPath": "sqlalchemy.ext.asyncio",
+        "description": "sqlalchemy.ext.asyncio",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.ext.asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "DATABASE_URL",
+        "importPath": "config",
+        "description": "config",
+        "isExtraImport": true,
+        "detail": "config",
+        "documentation": {}
+    },
+    {
+        "label": "BOT_TOKEN",
+        "importPath": "config",
+        "description": "config",
+        "isExtraImport": true,
+        "detail": "config",
+        "documentation": {}
+    },
+    {
+        "label": "InlineKeyboardMarkup",
+        "importPath": "aiogram.types",
+        "description": "aiogram.types",
+        "isExtraImport": true,
+        "detail": "aiogram.types",
+        "documentation": {}
+    },
+    {
+        "label": "InlineKeyboardButton",
+        "importPath": "aiogram.types",
+        "description": "aiogram.types",
+        "isExtraImport": true,
+        "detail": "aiogram.types",
+        "documentation": {}
+    },
+    {
+        "label": "InlineKeyboardMarkup",
+        "importPath": "aiogram.types",
+        "description": "aiogram.types",
+        "isExtraImport": true,
+        "detail": "aiogram.types",
+        "documentation": {}
+    },
+    {
+        "label": "InlineKeyboardButton",
+        "importPath": "aiogram.types",
+        "description": "aiogram.types",
+        "isExtraImport": true,
+        "detail": "aiogram.types",
+        "documentation": {}
+    },
+    {
+        "label": "ReplyKeyboardMarkup",
+        "importPath": "aiogram.types",
+        "description": "aiogram.types",
+        "isExtraImport": true,
+        "detail": "aiogram.types",
+        "documentation": {}
+    },
+    {
+        "label": "KeyboardButton",
+        "importPath": "aiogram.types",
+        "description": "aiogram.types",
+        "isExtraImport": true,
+        "detail": "aiogram.types",
+        "documentation": {}
+    },
+    {
+        "label": "InlineKeyboardMarkup",
+        "importPath": "aiogram.types",
+        "description": "aiogram.types",
+        "isExtraImport": true,
+        "detail": "aiogram.types",
+        "documentation": {}
+    },
+    {
+        "label": "InlineKeyboardButton",
+        "importPath": "aiogram.types",
+        "description": "aiogram.types",
+        "isExtraImport": true,
+        "detail": "aiogram.types",
+        "documentation": {}
+    },
+    {
+        "label": "InlineKeyboardMarkup",
+        "importPath": "aiogram.types",
+        "description": "aiogram.types",
+        "isExtraImport": true,
+        "detail": "aiogram.types",
+        "documentation": {}
+    },
+    {
+        "label": "InlineKeyboardButton",
+        "importPath": "aiogram.types",
+        "description": "aiogram.types",
+        "isExtraImport": true,
+        "detail": "aiogram.types",
+        "documentation": {}
+    },
+    {
+        "label": "InlineKeyboardMarkup",
+        "importPath": "aiogram.types",
+        "description": "aiogram.types",
+        "isExtraImport": true,
+        "detail": "aiogram.types",
+        "documentation": {}
+    },
+    {
+        "label": "InlineKeyboardButton",
+        "importPath": "aiogram.types",
+        "description": "aiogram.types",
+        "isExtraImport": true,
+        "detail": "aiogram.types",
+        "documentation": {}
+    },
+    {
+        "label": "LabeledPrice",
+        "importPath": "aiogram.types",
+        "description": "aiogram.types",
+        "isExtraImport": true,
+        "detail": "aiogram.types",
+        "documentation": {}
+    },
+    {
+        "label": "Enum",
+        "importPath": "enum",
+        "description": "enum",
+        "isExtraImport": true,
+        "detail": "enum",
+        "documentation": {}
+    },
+    {
+        "label": "Router",
+        "importPath": "aiogram",
+        "description": "aiogram",
+        "isExtraImport": true,
+        "detail": "aiogram",
+        "documentation": {}
+    },
+    {
+        "label": "types",
+        "importPath": "aiogram",
+        "description": "aiogram",
+        "isExtraImport": true,
+        "detail": "aiogram",
+        "documentation": {}
+    },
+    {
+        "label": "F",
+        "importPath": "aiogram",
+        "description": "aiogram",
+        "isExtraImport": true,
+        "detail": "aiogram",
+        "documentation": {}
+    },
+    {
+        "label": "Bot",
+        "importPath": "aiogram",
+        "description": "aiogram",
+        "isExtraImport": true,
+        "detail": "aiogram",
+        "documentation": {}
+    },
+    {
+        "label": "Router",
+        "importPath": "aiogram",
+        "description": "aiogram",
+        "isExtraImport": true,
+        "detail": "aiogram",
+        "documentation": {}
+    },
+    {
+        "label": "types",
+        "importPath": "aiogram",
+        "description": "aiogram",
+        "isExtraImport": true,
+        "detail": "aiogram",
+        "documentation": {}
+    },
+    {
+        "label": "F",
+        "importPath": "aiogram",
+        "description": "aiogram",
+        "isExtraImport": true,
+        "detail": "aiogram",
+        "documentation": {}
+    },
+    {
+        "label": "Router",
+        "importPath": "aiogram",
+        "description": "aiogram",
+        "isExtraImport": true,
+        "detail": "aiogram",
+        "documentation": {}
+    },
+    {
+        "label": "types",
+        "importPath": "aiogram",
+        "description": "aiogram",
+        "isExtraImport": true,
+        "detail": "aiogram",
+        "documentation": {}
+    },
+    {
+        "label": "F",
+        "importPath": "aiogram",
+        "description": "aiogram",
+        "isExtraImport": true,
+        "detail": "aiogram",
+        "documentation": {}
+    },
+    {
+        "label": "Bot",
+        "importPath": "aiogram",
+        "description": "aiogram",
+        "isExtraImport": true,
+        "detail": "aiogram",
+        "documentation": {}
+    },
+    {
+        "label": "Dispatcher",
+        "importPath": "aiogram",
+        "description": "aiogram",
+        "isExtraImport": true,
+        "detail": "aiogram",
+        "documentation": {}
+    },
+    {
+        "label": "Router",
+        "importPath": "aiogram",
+        "description": "aiogram",
+        "isExtraImport": true,
+        "detail": "aiogram",
+        "documentation": {}
+    },
+    {
+        "label": "F",
+        "importPath": "aiogram",
+        "description": "aiogram",
+        "isExtraImport": true,
+        "detail": "aiogram",
+        "documentation": {}
+    },
+    {
+        "label": "types",
+        "importPath": "aiogram",
+        "description": "aiogram",
+        "isExtraImport": true,
+        "detail": "aiogram",
+        "documentation": {}
+    },
+    {
+        "label": "Bot",
+        "importPath": "aiogram",
+        "description": "aiogram",
+        "isExtraImport": true,
+        "detail": "aiogram",
+        "documentation": {}
+    },
+    {
+        "label": "Dispatcher",
+        "importPath": "aiogram",
+        "description": "aiogram",
+        "isExtraImport": true,
+        "detail": "aiogram",
+        "documentation": {}
+    },
+    {
+        "label": "Command",
+        "importPath": "aiogram.filters",
+        "description": "aiogram.filters",
+        "isExtraImport": true,
+        "detail": "aiogram.filters",
+        "documentation": {}
+    },
+    {
+        "label": "StateFilter",
+        "importPath": "aiogram.filters",
+        "description": "aiogram.filters",
+        "isExtraImport": true,
+        "detail": "aiogram.filters",
+        "documentation": {}
+    },
+    {
+        "label": "Command",
+        "importPath": "aiogram.filters",
+        "description": "aiogram.filters",
+        "isExtraImport": true,
+        "detail": "aiogram.filters",
+        "documentation": {}
+    },
+    {
+        "label": "Command",
+        "importPath": "aiogram.filters",
+        "description": "aiogram.filters",
+        "isExtraImport": true,
+        "detail": "aiogram.filters",
+        "documentation": {}
+    },
+    {
+        "label": "FSMContext",
+        "importPath": "aiogram.fsm.context",
+        "description": "aiogram.fsm.context",
+        "isExtraImport": true,
+        "detail": "aiogram.fsm.context",
+        "documentation": {}
+    },
+    {
+        "label": "StatesGroup",
+        "importPath": "aiogram.fsm.state",
+        "description": "aiogram.fsm.state",
+        "isExtraImport": true,
+        "detail": "aiogram.fsm.state",
+        "documentation": {}
+    },
+    {
+        "label": "State",
+        "importPath": "aiogram.fsm.state",
+        "description": "aiogram.fsm.state",
+        "isExtraImport": true,
+        "detail": "aiogram.fsm.state",
+        "documentation": {}
+    },
+    {
+        "label": "asyncio",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "asyncio",
+        "description": "asyncio",
+        "detail": "asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "logging",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "logging",
+        "description": "logging",
+        "detail": "logging",
+        "documentation": {}
+    },
+    {
+        "label": "MemoryStorage",
+        "importPath": "aiogram.fsm.storage.memory",
+        "description": "aiogram.fsm.storage.memory",
+        "isExtraImport": true,
+        "detail": "aiogram.fsm.storage.memory",
+        "documentation": {}
+    },
+    {
+        "label": "start",
+        "importPath": "src.routes.start",
+        "description": "src.routes.start",
+        "isExtraImport": true,
+        "detail": "src.routes.start",
+        "documentation": {}
+    },
+    {
+        "label": "init_db",
+        "importPath": "src.database.database",
+        "description": "src.database.database",
+        "isExtraImport": true,
+        "detail": "src.database.database",
+        "documentation": {}
+    },
+    {
+        "label": "profile",
+        "importPath": "src.routes.profile",
+        "description": "src.routes.profile",
+        "isExtraImport": true,
+        "detail": "src.routes.profile",
+        "documentation": {}
+    },
+    {
+        "label": "payments",
+        "importPath": "src.routes.payments",
+        "description": "src.routes.payments",
+        "isExtraImport": true,
+        "detail": "src.routes.payments",
+        "documentation": {}
+    },
+    {
+        "label": "upgrade",
+        "kind": 2,
+        "importPath": "alembic.versions.16087d042964_users",
+        "description": "alembic.versions.16087d042964_users",
+        "peekOfCode": "def upgrade() -> None:\n    \"\"\"Upgrade schema.\"\"\"\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.create_table('users',\n    sa.Column('id', sa.Integer(), nullable=False),\n    sa.Column('telegram_id', sa.Integer(), nullable=False),\n    sa.Column('username', sa.String(), nullable=True),\n    sa.Column('tokens', sa.Integer(), nullable=False),\n    sa.Column('created_at', sa.DateTime(), nullable=False),\n    sa.PrimaryKeyConstraint('id')",
+        "detail": "alembic.versions.16087d042964_users",
+        "documentation": {}
+    },
+    {
+        "label": "downgrade",
+        "kind": 2,
+        "importPath": "alembic.versions.16087d042964_users",
+        "description": "alembic.versions.16087d042964_users",
+        "peekOfCode": "def downgrade() -> None:\n    \"\"\"Downgrade schema.\"\"\"\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.drop_index(op.f('ix_users_telegram_id'), table_name='users')\n    op.drop_table('users')\n    # ### end Alembic commands ###",
+        "detail": "alembic.versions.16087d042964_users",
+        "documentation": {}
+    },
+    {
+        "label": "upgrade",
+        "kind": 2,
+        "importPath": "alembic.versions.3df1b7eef7a7_update_users_table",
+        "description": "alembic.versions.3df1b7eef7a7_update_users_table",
+        "peekOfCode": "def upgrade() -> None:\n    \"\"\"Upgrade schema.\"\"\"\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.add_column('users', sa.Column('lang', sa.String(), nullable=True))\n    # ### end Alembic commands ###\ndef downgrade() -> None:\n    \"\"\"Downgrade schema.\"\"\"\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.drop_column('users', 'lang')\n    # ### end Alembic commands ###",
+        "detail": "alembic.versions.3df1b7eef7a7_update_users_table",
+        "documentation": {}
+    },
+    {
+        "label": "downgrade",
+        "kind": 2,
+        "importPath": "alembic.versions.3df1b7eef7a7_update_users_table",
+        "description": "alembic.versions.3df1b7eef7a7_update_users_table",
+        "peekOfCode": "def downgrade() -> None:\n    \"\"\"Downgrade schema.\"\"\"\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.drop_column('users', 'lang')\n    # ### end Alembic commands ###",
+        "detail": "alembic.versions.3df1b7eef7a7_update_users_table",
+        "documentation": {}
+    },
+    {
+        "label": "upgrade",
+        "kind": 2,
+        "importPath": "alembic.versions.4431a21abd29_initial_migration",
+        "description": "alembic.versions.4431a21abd29_initial_migration",
+        "peekOfCode": "def upgrade() -> None:\n    \"\"\"Upgrade schema.\"\"\"\n    # ### commands auto generated by Alembic - please adjust! ###\n    pass\n    # ### end Alembic commands ###\ndef downgrade() -> None:\n    \"\"\"Downgrade schema.\"\"\"\n    # ### commands auto generated by Alembic - please adjust! ###\n    pass\n    # ### end Alembic commands ###",
+        "detail": "alembic.versions.4431a21abd29_initial_migration",
+        "documentation": {}
+    },
+    {
+        "label": "downgrade",
+        "kind": 2,
+        "importPath": "alembic.versions.4431a21abd29_initial_migration",
+        "description": "alembic.versions.4431a21abd29_initial_migration",
+        "peekOfCode": "def downgrade() -> None:\n    \"\"\"Downgrade schema.\"\"\"\n    # ### commands auto generated by Alembic - please adjust! ###\n    pass\n    # ### end Alembic commands ###",
+        "detail": "alembic.versions.4431a21abd29_initial_migration",
+        "documentation": {}
+    },
+    {
+        "label": "upgrade",
+        "kind": 2,
+        "importPath": "alembic.versions.de6d8dd4376f_initial_migration",
+        "description": "alembic.versions.de6d8dd4376f_initial_migration",
+        "peekOfCode": "def upgrade() -> None:\n    \"\"\"Upgrade schema.\"\"\"\n    # ### commands auto generated by Alembic - please adjust! ###\n    pass\n    # ### end Alembic commands ###\ndef downgrade() -> None:\n    \"\"\"Downgrade schema.\"\"\"\n    # ### commands auto generated by Alembic - please adjust! ###\n    pass\n    # ### end Alembic commands ###",
+        "detail": "alembic.versions.de6d8dd4376f_initial_migration",
+        "documentation": {}
+    },
+    {
+        "label": "downgrade",
+        "kind": 2,
+        "importPath": "alembic.versions.de6d8dd4376f_initial_migration",
+        "description": "alembic.versions.de6d8dd4376f_initial_migration",
+        "peekOfCode": "def downgrade() -> None:\n    \"\"\"Downgrade schema.\"\"\"\n    # ### commands auto generated by Alembic - please adjust! ###\n    pass\n    # ### end Alembic commands ###",
+        "detail": "alembic.versions.de6d8dd4376f_initial_migration",
+        "documentation": {}
+    },
+    {
+        "label": "run_migrations_offline",
+        "kind": 2,
+        "importPath": "alembic.env",
+        "description": "alembic.env",
+        "peekOfCode": "def run_migrations_offline():\n    url = config.get_main_option(\"sqlalchemy.url\")\n    context.configure(\n        url=url,\n        target_metadata=target_metadata,\n        literal_binds=True,\n        dialect_opts={\"paramstyle\": \"named\"},\n    )\n    with context.begin_transaction():\n        context.run_migrations()",
+        "detail": "alembic.env",
+        "documentation": {}
+    },
+    {
+        "label": "run_migrations_online",
+        "kind": 2,
+        "importPath": "alembic.env",
+        "description": "alembic.env",
+        "peekOfCode": "def run_migrations_online():\n    connectable = engine_from_config(\n        config.get_section(config.config_ini_section),\n        prefix=\"sqlalchemy.\",\n        poolclass=pool.NullPool,\n    )\n    with connectable.connect() as connection:\n        context.configure(\n            connection=connection,\n            target_metadata=target_metadata",
+        "detail": "alembic.env",
+        "documentation": {}
+    },
+    {
+        "label": "config",
+        "kind": 5,
+        "importPath": "alembic.env",
+        "description": "alembic.env",
+        "peekOfCode": "config = context.config\nfileConfig(config.config_file_name)\ndatabase_url = os.getenv(\"DATABASE_URL\")\nif database_url and database_url.startswith(\"postgresql+asyncpg://\"):\n    sync_database_url = database_url.replace(\"postgresql+asyncpg://\", \"postgresql+psycopg2://\")\nelse:\n    sync_database_url = database_url\nprint(sync_database_url)\nconfig.set_main_option('sqlalchemy.url', sync_database_url)\ntarget_metadata = Base.metadata",
+        "detail": "alembic.env",
+        "documentation": {}
+    },
+    {
+        "label": "database_url",
+        "kind": 5,
+        "importPath": "alembic.env",
+        "description": "alembic.env",
+        "peekOfCode": "database_url = os.getenv(\"DATABASE_URL\")\nif database_url and database_url.startswith(\"postgresql+asyncpg://\"):\n    sync_database_url = database_url.replace(\"postgresql+asyncpg://\", \"postgresql+psycopg2://\")\nelse:\n    sync_database_url = database_url\nprint(sync_database_url)\nconfig.set_main_option('sqlalchemy.url', sync_database_url)\ntarget_metadata = Base.metadata\ndef run_migrations_offline():\n    url = config.get_main_option(\"sqlalchemy.url\")",
+        "detail": "alembic.env",
+        "documentation": {}
+    },
+    {
+        "label": "target_metadata",
+        "kind": 5,
+        "importPath": "alembic.env",
+        "description": "alembic.env",
+        "peekOfCode": "target_metadata = Base.metadata\ndef run_migrations_offline():\n    url = config.get_main_option(\"sqlalchemy.url\")\n    context.configure(\n        url=url,\n        target_metadata=target_metadata,\n        literal_binds=True,\n        dialect_opts={\"paramstyle\": \"named\"},\n    )\n    with context.begin_transaction():",
+        "detail": "alembic.env",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "kind": 6,
+        "importPath": "src.database.models.base",
+        "description": "src.database.models.base",
+        "peekOfCode": "class Base(DeclarativeBase):\n    pass\nfrom .user import User",
+        "detail": "src.database.models.base",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "kind": 6,
+        "importPath": "src.database.models.user",
+        "description": "src.database.models.user",
+        "peekOfCode": "class User(Base):\n    __tablename__ = \"users\"\n    id: Mapped[int] = mapped_column(Integer, primary_key=True)\n    telegram_id: Mapped[int] = mapped_column(Integer, unique=True, index=True)\n    username: Mapped[str] = mapped_column(String, nullable=True)\n    tokens: Mapped[int] = mapped_column(Integer, nullable=False, default=0)\n    lang: Mapped[str] = mapped_column(String, nullable=True, default='eng')\n    created_at: Mapped[datetime] = mapped_column(\n        DateTime,\n        default=datetime.utcnow",
+        "detail": "src.database.models.user",
+        "documentation": {}
+    },
+    {
+        "label": "UserRepository",
+        "kind": 6,
+        "importPath": "src.database.models.user",
+        "description": "src.database.models.user",
+        "peekOfCode": "class UserRepository: \n    session: AsyncSession\n    telegram_id: int\n    user: User = None\n    locale: RuLocale\n    def __init__(self, session: AsyncSession,):\n        self.session = session\n    async def getUser(self, telegram_id):\n        result = await self.session.execute(\n            select(User).where(User.telegram_id == telegram_id)",
+        "detail": "src.database.models.user",
+        "documentation": {}
+    },
+    {
+        "label": "engine",
+        "kind": 5,
+        "importPath": "src.database.database",
+        "description": "src.database.database",
+        "peekOfCode": "engine = create_async_engine(DATABASE_URL, echo=True)\nAsyncSessionLocal = async_sessionmaker(engine, expire_on_commit=False)\nasync def init_db():\n    async with engine.begin() as conn:\n        await conn.run_sync(Base.metadata.create_all)\nasync def get_db():\n    async with AsyncSessionLocal() as session:\n        yield session",
+        "detail": "src.database.database",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncSessionLocal",
+        "kind": 5,
+        "importPath": "src.database.database",
+        "description": "src.database.database",
+        "peekOfCode": "AsyncSessionLocal = async_sessionmaker(engine, expire_on_commit=False)\nasync def init_db():\n    async with engine.begin() as conn:\n        await conn.run_sync(Base.metadata.create_all)\nasync def get_db():\n    async with AsyncSessionLocal() as session:\n        yield session",
+        "detail": "src.database.database",
+        "documentation": {}
+    },
+    {
+        "label": "StartLocale",
+        "kind": 6,
+        "importPath": "src.i18btn.locales.eng",
+        "description": "src.i18btn.locales.eng",
+        "peekOfCode": "class StartLocale: \n    @staticmethod\n    def getStartMessage(): \n        return f\"By continuing, you agree to the terms of use\\n\\\n            Please select a language:\"\n    @staticmethod\n    def getMainMenuMessage():\n        return \"🏠 Main menu\\nSelect the appropriate section 👇\"\n    @staticmethod\n    def getMainMenuKeyboardText():",
+        "detail": "src.i18btn.locales.eng",
+        "documentation": {}
+    },
+    {
+        "label": "ProfileLocale",
+        "kind": 6,
+        "importPath": "src.i18btn.locales.eng",
+        "description": "src.i18btn.locales.eng",
+        "peekOfCode": "class ProfileLocale:\n    @staticmethod\n    def getProfileKeyboardText():\n        return [\n            'Buy tokens'\n        ]\n    def getProfileMenuText(tokens):\n        return f\"Profile\\nToken balance: {tokens}\"\n    @staticmethod\n    def getBuyTokensText(amount, currency):",
+        "detail": "src.i18btn.locales.eng",
+        "documentation": {}
+    },
+    {
+        "label": "PaymentLocale",
+        "kind": 6,
+        "importPath": "src.i18btn.locales.eng",
+        "description": "src.i18btn.locales.eng",
+        "peekOfCode": "class PaymentLocale:\n    @staticmethod\n    def getTypesPaymentsTitles():\n        return {\n            \"tokens\": 'Buy tokens'\n        }\n    @staticmethod\n    def getPayCheckText(amount: int, currency: str): \n        return f\"Your payment receipt\\nAmount: {amount} {currency}\"\n    @staticmethod",
+        "detail": "src.i18btn.locales.eng",
+        "documentation": {}
+    },
+    {
+        "label": "SharedTexts",
+        "kind": 6,
+        "importPath": "src.i18btn.locales.eng",
+        "description": "src.i18btn.locales.eng",
+        "peekOfCode": "class SharedTexts:\n    @staticmethod\n    def getSharedTexts(): \n        return {\n            \"cancel\": \"Cancel\",\n            \"pay\": \"Pay\",\n        } \nclass EngLocale:\n    start_locale: StartLocale\n    profile_locale: ProfileLocale",
+        "detail": "src.i18btn.locales.eng",
+        "documentation": {}
+    },
+    {
+        "label": "EngLocale",
+        "kind": 6,
+        "importPath": "src.i18btn.locales.eng",
+        "description": "src.i18btn.locales.eng",
+        "peekOfCode": "class EngLocale:\n    start_locale: StartLocale\n    profile_locale: ProfileLocale\n    shared_texts: SharedTexts\n    payment_locale: PaymentLocale\n    def __init__(self) -> None:\n        self.start_locale = StartLocale()\n        self.profile_locale = ProfileLocale()\n        self.shared_texts = SharedTexts()\n        self.payment_locale = PaymentLocale()",
+        "detail": "src.i18btn.locales.eng",
+        "documentation": {}
+    },
+    {
+        "label": "eng_locale",
+        "kind": 5,
+        "importPath": "src.i18btn.locales.eng",
+        "description": "src.i18btn.locales.eng",
+        "peekOfCode": "eng_locale = EngLocale()",
+        "detail": "src.i18btn.locales.eng",
+        "documentation": {}
+    },
+    {
+        "label": "StartLocale",
+        "kind": 6,
+        "importPath": "src.i18btn.locales.ru",
+        "description": "src.i18btn.locales.ru",
+        "peekOfCode": "class StartLocale: \n    @staticmethod\n    def getStartMessage(): \n        return f\"Продолжая, вы соглашаетесь с условиями использования\\n\\\n            пожалуйста, выберите язык: \"\n    @staticmethod\n    def getMainMenuMessage():\n        return \"🏠 Главное меню\\nВыберите нужный раздел 👇\"\n    @staticmethod\n    def getMainMenuKeyboardText():",
+        "detail": "src.i18btn.locales.ru",
+        "documentation": {}
+    },
+    {
+        "label": "ProfileLocale",
+        "kind": 6,
+        "importPath": "src.i18btn.locales.ru",
+        "description": "src.i18btn.locales.ru",
+        "peekOfCode": "class ProfileLocale:\n    @staticmethod\n    def getProfileKeyboardText():\n        return [\n            'Купить токены'\n        ]\n    @staticmethod\n    def getProfileMenuText(tokens: int):\n        return f\"Профиль\\nБаланс токенов: {tokens}\"\n    @staticmethod",
+        "detail": "src.i18btn.locales.ru",
+        "documentation": {}
+    },
+    {
+        "label": "PaymentLocale",
+        "kind": 6,
+        "importPath": "src.i18btn.locales.ru",
+        "description": "src.i18btn.locales.ru",
+        "peekOfCode": "class PaymentLocale:\n    @staticmethod\n    def getTypesPaymentsTitles():\n        return {\n            \"tokens\": 'Покупка токенов'\n        }\n    @staticmethod\n    def getPayCheckText(amount: int, currency: str): \n        return f\"Ваш чек на оплату\\nСумма: {amount} {currency}\"\n    @staticmethod",
+        "detail": "src.i18btn.locales.ru",
+        "documentation": {}
+    },
+    {
+        "label": "SharedTexts",
+        "kind": 6,
+        "importPath": "src.i18btn.locales.ru",
+        "description": "src.i18btn.locales.ru",
+        "peekOfCode": "class SharedTexts:\n    @staticmethod\n    def getSharedTexts(): \n        return {\n            \"cancel\": \"Отмена\",\n            \"pay\": \"Оплатить\",\n        } \nclass RuLocale:\n    start_locale: StartLocale\n    profile_locale: ProfileLocale",
+        "detail": "src.i18btn.locales.ru",
+        "documentation": {}
+    },
+    {
+        "label": "RuLocale",
+        "kind": 6,
+        "importPath": "src.i18btn.locales.ru",
+        "description": "src.i18btn.locales.ru",
+        "peekOfCode": "class RuLocale:\n    start_locale: StartLocale\n    profile_locale: ProfileLocale\n    shared_texts: SharedTexts\n    payment_locale: PaymentLocale\n    def __init__(self) -> None:\n        self.start_locale = StartLocale()\n        self.profile_locale = ProfileLocale()\n        self.shared_texts = SharedTexts()\n        self.payment_locale = PaymentLocale()",
+        "detail": "src.i18btn.locales.ru",
+        "documentation": {}
+    },
+    {
+        "label": "ru_locale",
+        "kind": 5,
+        "importPath": "src.i18btn.locales.ru",
+        "description": "src.i18btn.locales.ru",
+        "peekOfCode": "ru_locale = RuLocale()",
+        "detail": "src.i18btn.locales.ru",
+        "documentation": {}
+    },
+    {
+        "label": "getLocale",
+        "kind": 2,
+        "importPath": "src.i18btn.getLang",
+        "description": "src.i18btn.getLang",
+        "peekOfCode": "def getLocale(lang: str) -> RuLocale:\n    match (lang):\n        case 'ru':\n            return ru_locale\n        case 'en':\n            return eng_locale\n        case _:\n            raise ValueError(f\"Unsupported language: {lang}\")",
+        "detail": "src.i18btn.getLang",
+        "documentation": {}
+    },
+    {
+        "label": "payKeyboard",
+        "kind": 2,
+        "importPath": "src.routes.payments.keyboards.payButtonKeyboard",
+        "description": "src.routes.payments.keyboards.payButtonKeyboard",
+        "peekOfCode": "def payKeyboard(locale: RuLocale, payUrl: str):\n    buttons = [\n        [\n            InlineKeyboardButton(\n                    text = locale.shared_texts.getSharedTexts()['pay'],\n                    url = payUrl\n            ),\n        ],        \n    ]\n    keyboard = InlineKeyboardMarkup(inline_keyboard=buttons)",
+        "detail": "src.routes.payments.keyboards.payButtonKeyboard",
+        "documentation": {}
+    },
+    {
+        "label": "selectPaymentMethodKeyboard",
+        "kind": 2,
+        "importPath": "src.routes.payments.keyboards.selectPaymentMethod",
+        "description": "src.routes.payments.keyboards.selectPaymentMethod",
+        "peekOfCode": "def selectPaymentMethodKeyboard(locale: RuLocale):\n    buttons = [\n        [\n            InlineKeyboardButton(\n                    text = 'Telegram stars 🌟',\n                    callback_data = \"paymentMethod_tgstars\"\n            ),\n        ],\n        [\n            InlineKeyboardButton(",
+        "detail": "src.routes.payments.keyboards.selectPaymentMethod",
+        "documentation": {}
+    },
+    {
+        "label": "PaymentType",
+        "kind": 6,
+        "importPath": "src.routes.payments.enums",
+        "description": "src.routes.payments.enums",
+        "peekOfCode": "class PaymentType(str, Enum):\n    BUY_TOKENS = 'buyTokens'",
+        "detail": "src.routes.payments.enums",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "src.routes.payments.payments",
+        "description": "src.routes.payments.payments",
+        "peekOfCode": "router = Router()\n@router.callback_query(F.data == 'buy_tokens')\nasync def buy_tokens(call: types.CallbackQuery):\n    async with AsyncSessionLocal() as session: \n        userRepo = UserRepository(session)\n        await userRepo.getUser(call.from_user.id)\n        await call.message.answer(userRepo.locale.profile_locale.getSelectPaymentMethodText(), reply_markup= selectPaymentMethodKeyboard(userRepo.locale))\n@router.callback_query(F.data.split('_')[0] == 'paymentMethod')\nasync def selectedPaymentMethod(call: types.CallbackQuery, state: FSMContext):\n    async with AsyncSessionLocal() as session: ",
+        "detail": "src.routes.payments.payments",
+        "documentation": {}
+    },
+    {
+        "label": "PaymentStates",
+        "kind": 6,
+        "importPath": "src.routes.payments.states",
+        "description": "src.routes.payments.states",
+        "peekOfCode": "class PaymentStates(StatesGroup):\n    GET_PAYMENT_AMOUNT = State()",
+        "detail": "src.routes.payments.states",
+        "documentation": {}
+    },
+    {
+        "label": "profileKeyboard",
+        "kind": 2,
+        "importPath": "src.routes.profile.keyboards.profileKeyboard",
+        "description": "src.routes.profile.keyboards.profileKeyboard",
+        "peekOfCode": "def profileKeyboard(buttonsTexts: list):\n    buttons = [\n        [\n            InlineKeyboardButton(\n                    text = buttonsTexts[0],\n                    callback_data = \"buy_tokens\"\n            ),\n        ],\n    ]\n    keyboard = InlineKeyboardMarkup(inline_keyboard=buttons)",
+        "detail": "src.routes.profile.keyboards.profileKeyboard",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "src.routes.profile.profile",
+        "description": "src.routes.profile.profile",
+        "peekOfCode": "router = Router()\n@router.callback_query(F.data == 'profile')\nasync def profileMenu(call: types.CallbackQuery):\n    async with AsyncSessionLocal() as session:\n        userRepo = UserRepository(session)\n        await userRepo.getUser(call.from_user.id)\n        await call.message.answer(\n                userRepo.locale.profile_locale.getProfileMenuText(userRepo.user.tokens),\n                reply_markup=profileKeyboard(buttonsTexts=userRepo.locale.profile_locale.getProfileKeyboardText())\n            )",
+        "detail": "src.routes.profile.profile",
+        "documentation": {}
+    },
+    {
+        "label": "mainMenuKeyboard",
+        "kind": 2,
+        "importPath": "src.routes.start.keyboards.mainMenuKeyboard",
+        "description": "src.routes.start.keyboards.mainMenuKeyboard",
+        "peekOfCode": "def mainMenuKeyboard(buttonsTexts: list):\n    buttons = [\n        [\n            InlineKeyboardButton(text=buttonsTexts[0], callback_data='profile')\n        ],\n        [\n            InlineKeyboardButton(text=buttonsTexts[1], callback_data='profile'),\n            InlineKeyboardButton(text=buttonsTexts[2], callback_data='profile'),\n        ],\n        [",
+        "detail": "src.routes.start.keyboards.mainMenuKeyboard",
+        "documentation": {}
+    },
+    {
+        "label": "select_lang_keyboard",
+        "kind": 2,
+        "importPath": "src.routes.start.keyboards.selectLangKeyboard",
+        "description": "src.routes.start.keyboards.selectLangKeyboard",
+        "peekOfCode": "def select_lang_keyboard():\n    buttons = [\n        [\n            InlineKeyboardButton(\n                    text = '🇺🇸 English',\n                    callback_data = \"changelang_en\"\n            ),\n        ],\n        [\n            InlineKeyboardButton(",
+        "detail": "src.routes.start.keyboards.selectLangKeyboard",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "src.routes.start.start",
+        "description": "src.routes.start.start",
+        "peekOfCode": "router = Router()\n@router.message(Command(\"start\"))\nasync def cmd_start(message: types.Message):\n    async with AsyncSessionLocal() as session:\n        userRepo = UserRepository(session)\n        await userRepo.getUser(message.from_user.id)\n        if not userRepo.user:\n            await userRepo.createUser(User(\n                telegram_id = message.from_user.id,\n                username = message.from_user.username,",
+        "detail": "src.routes.start.start",
+        "documentation": {}
+    },
+    {
+        "label": "BOT_TOKEN",
+        "kind": 5,
+        "importPath": "config",
+        "description": "config",
+        "peekOfCode": "BOT_TOKEN = os.getenv(\"BOT_TOKEN\")\nDATABASE_URL = os.getenv(\"DATABASE_URL\")",
+        "detail": "config",
+        "documentation": {}
+    },
+    {
+        "label": "DATABASE_URL",
+        "kind": 5,
+        "importPath": "config",
+        "description": "config",
+        "peekOfCode": "DATABASE_URL = os.getenv(\"DATABASE_URL\")",
+        "detail": "config",
+        "documentation": {}
+    }
+]
