@@ -42,6 +42,19 @@ class ProfileLocale:
     def getSelectPaymentMethodText():
         return f"Выберите способ оплаты"
 
+class TextModelsLocale:
+    @staticmethod
+    def getHelloMessage():
+        return """💡 GPTs/Claude/Gemini
+
+🎙️ Голосом, ✍️ текстом, 🌅 изображением — задавайте любые вопросы удобным способом и SYNTX тут же найдёт решение + 🌐 выход в интернет (только 4 версия модели)."""
+
+    @staticmethod
+    def getMainButtons():
+        return [
+            'Выбрать модель',
+            '◀️Назад'
+        ]
 
 class PaymentLocale:
     @staticmethod
@@ -79,11 +92,13 @@ class RuLocale:
     profile_locale: ProfileLocale
     shared_texts: SharedTexts
     payment_locale: PaymentLocale
+    text_models_locale: TextModelsLocale
 
     def __init__(self) -> None:
         self.start_locale = StartLocale()
         self.profile_locale = ProfileLocale()
         self.shared_texts = SharedTexts()
         self.payment_locale = PaymentLocale()
+        self.text_models_locale = TextModelsLocale()
 
 ru_locale = RuLocale()

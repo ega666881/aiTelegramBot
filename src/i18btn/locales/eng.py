@@ -3,8 +3,7 @@
 class StartLocale: 
     @staticmethod
     def getStartMessage(): 
-        return f"By continuing, you agree to the terms of use\n\
-            Please select a language:"
+        return f"By continuing, you agree to the terms of use\nPlease select a language:"
 
     @staticmethod
     def getMainMenuMessage():

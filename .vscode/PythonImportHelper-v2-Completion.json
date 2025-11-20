@@ -64,6 +64,30 @@
         "documentation": {}
     },
     {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
         "label": "op",
         "importPath": "alembic",
         "description": "alembic",
@@ -162,6 +186,14 @@
     },
     {
         "label": "DateTime",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "select",
         "importPath": "sqlalchemy",
         "description": "sqlalchemy",
         "isExtraImport": true,
@@ -379,6 +411,15 @@
         "documentation": {}
     },
     {
+        "label": "config",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "config",
+        "description": "config",
+        "detail": "config",
+        "documentation": {}
+    },
+    {
         "label": "DATABASE_URL",
         "importPath": "config",
         "description": "config",
@@ -491,11 +532,35 @@
         "documentation": {}
     },
     {
+        "label": "InlineKeyboardMarkup",
+        "importPath": "aiogram.types",
+        "description": "aiogram.types",
+        "isExtraImport": true,
+        "detail": "aiogram.types",
+        "documentation": {}
+    },
+    {
+        "label": "InlineKeyboardButton",
+        "importPath": "aiogram.types",
+        "description": "aiogram.types",
+        "isExtraImport": true,
+        "detail": "aiogram.types",
+        "documentation": {}
+    },
+    {
         "label": "LabeledPrice",
         "importPath": "aiogram.types",
         "description": "aiogram.types",
         "isExtraImport": true,
         "detail": "aiogram.types",
+        "documentation": {}
+    },
+    {
+        "label": "Enum",
+        "importPath": "enum",
+        "description": "enum",
+        "isExtraImport": true,
+        "detail": "enum",
         "documentation": {}
     },
     {
@@ -532,6 +597,30 @@
     },
     {
         "label": "Bot",
+        "importPath": "aiogram",
+        "description": "aiogram",
+        "isExtraImport": true,
+        "detail": "aiogram",
+        "documentation": {}
+    },
+    {
+        "label": "Router",
+        "importPath": "aiogram",
+        "description": "aiogram",
+        "isExtraImport": true,
+        "detail": "aiogram",
+        "documentation": {}
+    },
+    {
+        "label": "types",
+        "importPath": "aiogram",
+        "description": "aiogram",
+        "isExtraImport": true,
+        "detail": "aiogram",
+        "documentation": {}
+    },
+    {
+        "label": "F",
         "importPath": "aiogram",
         "description": "aiogram",
         "isExtraImport": true,
@@ -675,6 +764,31 @@
         "documentation": {}
     },
     {
+        "label": "Command",
+        "importPath": "aiogram.filters",
+        "description": "aiogram.filters",
+        "isExtraImport": true,
+        "detail": "aiogram.filters",
+        "documentation": {}
+    },
+    {
+        "label": "aiogram.fsm.context",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "aiogram.fsm.context",
+        "description": "aiogram.fsm.context",
+        "detail": "aiogram.fsm.context",
+        "documentation": {}
+    },
+    {
+        "label": "FSMContext",
+        "importPath": "aiogram.fsm.context",
+        "description": "aiogram.fsm.context",
+        "isExtraImport": true,
+        "detail": "aiogram.fsm.context",
+        "documentation": {}
+    },
+    {
         "label": "FSMContext",
         "importPath": "aiogram.fsm.context",
         "description": "aiogram.fsm.context",
@@ -699,12 +813,87 @@
         "documentation": {}
     },
     {
+        "label": "StatesGroup",
+        "importPath": "aiogram.fsm.state",
+        "description": "aiogram.fsm.state",
+        "isExtraImport": true,
+        "detail": "aiogram.fsm.state",
+        "documentation": {}
+    },
+    {
+        "label": "State",
+        "importPath": "aiogram.fsm.state",
+        "description": "aiogram.fsm.state",
+        "isExtraImport": true,
+        "detail": "aiogram.fsm.state",
+        "documentation": {}
+    },
+    {
+        "label": "textModels",
+        "importPath": "src.utils.cometApi.cometApi",
+        "description": "src.utils.cometApi.cometApi",
+        "isExtraImport": true,
+        "detail": "src.utils.cometApi.cometApi",
+        "documentation": {}
+    },
+    {
+        "label": "cometApi",
+        "importPath": "src.utils.cometApi.cometApi",
+        "description": "src.utils.cometApi.cometApi",
+        "isExtraImport": true,
+        "detail": "src.utils.cometApi.cometApi",
+        "documentation": {}
+    },
+    {
+        "label": "textModels",
+        "importPath": "src.utils.cometApi.cometApi",
+        "description": "src.utils.cometApi.cometApi",
+        "isExtraImport": true,
+        "detail": "src.utils.cometApi.cometApi",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "src.database.models.user",
+        "description": "src.database.models.user",
+        "isExtraImport": true,
+        "detail": "src.database.models.user",
+        "documentation": {}
+    },
+    {
+        "label": "requests",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "requests",
+        "description": "requests",
+        "detail": "requests",
+        "documentation": {}
+    },
+    {
+        "label": "aiohttp",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "aiohttp",
+        "description": "aiohttp",
+        "detail": "aiohttp",
+        "documentation": {}
+    },
+    {
         "label": "asyncio",
         "kind": 6,
         "isExtraImport": true,
         "importPath": "asyncio",
         "description": "asyncio",
         "detail": "asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "random",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "random",
+        "description": "random",
+        "detail": "random",
         "documentation": {}
     },
     {
@@ -754,6 +943,14 @@
         "description": "src.routes.payments",
         "isExtraImport": true,
         "detail": "src.routes.payments",
+        "documentation": {}
+    },
+    {
+        "label": "textModels",
+        "importPath": "src.routes.textModels",
+        "description": "src.routes.textModels",
+        "isExtraImport": true,
+        "detail": "src.routes.textModels",
         "documentation": {}
     },
     {
@@ -923,7 +1120,7 @@
         "kind": 6,
         "importPath": "src.i18btn.locales.eng",
         "description": "src.i18btn.locales.eng",
-        "peekOfCode": "class StartLocale: \n    @staticmethod\n    def getStartMessage(): \n        return f\"By continuing, you agree to the terms of use\\n\\\n            Please select a language:\"\n    @staticmethod\n    def getMainMenuMessage():\n        return \"🏠 Main menu\\nSelect the appropriate section 👇\"\n    @staticmethod\n    def getMainMenuKeyboardText():",
+        "peekOfCode": "class StartLocale: \n    @staticmethod\n    def getStartMessage(): \n        return f\"By continuing, you agree to the terms of use\\nPlease select a language:\"\n    @staticmethod\n    def getMainMenuMessage():\n        return \"🏠 Main menu\\nSelect the appropriate section 👇\"\n    @staticmethod\n    def getMainMenuKeyboardText():\n        return [",
         "detail": "src.i18btn.locales.eng",
         "documentation": {}
     },
@@ -991,6 +1188,15 @@
         "documentation": {}
     },
     {
+        "label": "TextModelsLocale",
+        "kind": 6,
+        "importPath": "src.i18btn.locales.ru",
+        "description": "src.i18btn.locales.ru",
+        "peekOfCode": "class TextModelsLocale:\n    @staticmethod\n    def getHelloMessage():\n        return \"\"\"💡 GPTs/Claude/Gemini\n🎙️ Голосом, ✍️ текстом, 🌅 изображением — задавайте любые вопросы удобным способом и SYNTX тут же найдёт решение + 🌐 выход в интернет (только 4 версия модели).\"\"\"\n    @staticmethod\n    def getMainButtons():\n        return [\n            'Выбрать модель',\n            '◀️Назад'",
+        "detail": "src.i18btn.locales.ru",
+        "documentation": {}
+    },
+    {
         "label": "PaymentLocale",
         "kind": 6,
         "importPath": "src.i18btn.locales.ru",
@@ -1013,7 +1219,7 @@
         "kind": 6,
         "importPath": "src.i18btn.locales.ru",
         "description": "src.i18btn.locales.ru",
-        "peekOfCode": "class RuLocale:\n    start_locale: StartLocale\n    profile_locale: ProfileLocale\n    shared_texts: SharedTexts\n    payment_locale: PaymentLocale\n    def __init__(self) -> None:\n        self.start_locale = StartLocale()\n        self.profile_locale = ProfileLocale()\n        self.shared_texts = SharedTexts()\n        self.payment_locale = PaymentLocale()",
+        "peekOfCode": "class RuLocale:\n    start_locale: StartLocale\n    profile_locale: ProfileLocale\n    shared_texts: SharedTexts\n    payment_locale: PaymentLocale\n    text_models_locale: TextModelsLocale\n    def __init__(self) -> None:\n        self.start_locale = StartLocale()\n        self.profile_locale = ProfileLocale()\n        self.shared_texts = SharedTexts()",
         "detail": "src.i18btn.locales.ru",
         "documentation": {}
     },
@@ -1103,7 +1309,7 @@
         "kind": 2,
         "importPath": "src.routes.start.keyboards.mainMenuKeyboard",
         "description": "src.routes.start.keyboards.mainMenuKeyboard",
-        "peekOfCode": "def mainMenuKeyboard(buttonsTexts: list):\n    buttons = [\n        [\n            InlineKeyboardButton(text=buttonsTexts[0], callback_data='profile')\n        ],\n        [\n            InlineKeyboardButton(text=buttonsTexts[1], callback_data='profile'),\n            InlineKeyboardButton(text=buttonsTexts[2], callback_data='profile'),\n        ],\n        [",
+        "peekOfCode": "def mainMenuKeyboard(buttonsTexts: list):\n    buttons = [\n        [\n            InlineKeyboardButton(text=buttonsTexts[0], callback_data='profile')\n        ],\n        [\n            InlineKeyboardButton(text=buttonsTexts[1], callback_data='textModels'),\n            InlineKeyboardButton(text=buttonsTexts[2], callback_data='profile'),\n        ],\n        [",
         "detail": "src.routes.start.keyboards.mainMenuKeyboard",
         "documentation": {}
     },
@@ -1126,11 +1332,101 @@
         "documentation": {}
     },
     {
+        "label": "mainKeyboard",
+        "kind": 2,
+        "importPath": "src.routes.textModels.keyboards.textModelsKeyboard",
+        "description": "src.routes.textModels.keyboards.textModelsKeyboard",
+        "peekOfCode": "def mainKeyboard(buttonsTexts: list):\n    buttons = [\n        [\n            InlineKeyboardButton(text=buttonsTexts[0], callback_data='select_model')\n        ],\n        [\n            InlineKeyboardButton(text=buttonsTexts[1], callback_data='back_main'),\n        ],\n    ]\n    keyboard = InlineKeyboardMarkup(inline_keyboard=buttons)",
+        "detail": "src.routes.textModels.keyboards.textModelsKeyboard",
+        "documentation": {}
+    },
+    {
+        "label": "TextModelStates",
+        "kind": 6,
+        "importPath": "src.routes.textModels.states",
+        "description": "src.routes.textModels.states",
+        "peekOfCode": "class TextModelStates(StatesGroup):\n    GET_PROMT_MESSAGE = State()",
+        "detail": "src.routes.textModels.states",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "src.routes.textModels.textModels",
+        "description": "src.routes.textModels.textModels",
+        "peekOfCode": "router = Router()\n@router.callback_query(F.data == 'textModels')\nasync def textModels(call: types.CallbackQuery, state: FSMContext): \n    async with AsyncSessionLocal() as session:\n        userRepo = UserRepository(session)\n        await userRepo.getUser(call.from_user.id)\n        await state.set_state(TextModelStates.GET_PROMT_MESSAGE)\n        await call.message.edit_text(\n            userRepo.locale.text_models_locale.getHelloMessage(),\n            reply_markup=textModelsKeyboard.mainKeyboard(userRepo.locale.text_models_locale.getMainButtons())",
+        "detail": "src.routes.textModels.textModels",
+        "documentation": {}
+    },
+    {
+        "label": "Endpoints",
+        "kind": 6,
+        "importPath": "src.utils.cometApi.cometApi",
+        "description": "src.utils.cometApi.cometApi",
+        "peekOfCode": "class Endpoints(Enum):\n    GET_MODELS = baseUrl + \"/v1/models\"\n    TEXT_MODEL = baseUrl + \"/v1/chat/completions\"\nclass Methods(Enum):\n    GET = 'GET'\n    POST = 'POST'\n    PUT = 'PUT'\nclass CometApi:\n    models = []\n    default_headers = {",
+        "detail": "src.utils.cometApi.cometApi",
+        "documentation": {}
+    },
+    {
+        "label": "Methods",
+        "kind": 6,
+        "importPath": "src.utils.cometApi.cometApi",
+        "description": "src.utils.cometApi.cometApi",
+        "peekOfCode": "class Methods(Enum):\n    GET = 'GET'\n    POST = 'POST'\n    PUT = 'PUT'\nclass CometApi:\n    models = []\n    default_headers = {\n        'Authorization': 'Bearer ' + config.COMET_API_TOKEN\n    }\n    async def __fetchWithRetry(",
+        "detail": "src.utils.cometApi.cometApi",
+        "documentation": {}
+    },
+    {
+        "label": "CometApi",
+        "kind": 6,
+        "importPath": "src.utils.cometApi.cometApi",
+        "description": "src.utils.cometApi.cometApi",
+        "peekOfCode": "class CometApi:\n    models = []\n    default_headers = {\n        'Authorization': 'Bearer ' + config.COMET_API_TOKEN\n    }\n    async def __fetchWithRetry(\n        self,\n        method: str,\n        url: str,\n        params: Optional[Dict[str, Any]] = None,",
+        "detail": "src.utils.cometApi.cometApi",
+        "documentation": {}
+    },
+    {
+        "label": "TextModels",
+        "kind": 6,
+        "importPath": "src.utils.cometApi.cometApi",
+        "description": "src.utils.cometApi.cometApi",
+        "peekOfCode": "class TextModels(CometApi):\n    def __checkValidModel(self, modelName: str):\n        if modelName not in super().models:\n            return False\n        else:\n            return True\n    async def sendTextRequest(self, modelName: str, promt: str, messagesHistory: list = []):\n        if self.__checkValidModel(modelName):\n            messages = [\n                *messagesHistory,",
+        "detail": "src.utils.cometApi.cometApi",
+        "documentation": {}
+    },
+    {
+        "label": "baseUrl",
+        "kind": 5,
+        "importPath": "src.utils.cometApi.cometApi",
+        "description": "src.utils.cometApi.cometApi",
+        "peekOfCode": "baseUrl = config.COMET_API_URL\nclass Endpoints(Enum):\n    GET_MODELS = baseUrl + \"/v1/models\"\n    TEXT_MODEL = baseUrl + \"/v1/chat/completions\"\nclass Methods(Enum):\n    GET = 'GET'\n    POST = 'POST'\n    PUT = 'PUT'\nclass CometApi:\n    models = []",
+        "detail": "src.utils.cometApi.cometApi",
+        "documentation": {}
+    },
+    {
+        "label": "cometApi",
+        "kind": 5,
+        "importPath": "src.utils.cometApi.cometApi",
+        "description": "src.utils.cometApi.cometApi",
+        "peekOfCode": "cometApi = CometApi()\ntextModels = TextModels()",
+        "detail": "src.utils.cometApi.cometApi",
+        "documentation": {}
+    },
+    {
+        "label": "textModels",
+        "kind": 5,
+        "importPath": "src.utils.cometApi.cometApi",
+        "description": "src.utils.cometApi.cometApi",
+        "peekOfCode": "textModels = TextModels()",
+        "detail": "src.utils.cometApi.cometApi",
+        "documentation": {}
+    },
+    {
         "label": "BOT_TOKEN",
         "kind": 5,
         "importPath": "config",
         "description": "config",
-        "peekOfCode": "BOT_TOKEN = os.getenv(\"BOT_TOKEN\")\nDATABASE_URL = os.getenv(\"DATABASE_URL\")",
+        "peekOfCode": "BOT_TOKEN = os.getenv(\"BOT_TOKEN\")\nDATABASE_URL = os.getenv(\"DATABASE_URL\")\nCOMET_API_URL = os.getenv(\"COMET_API_URL\")\nCOMET_API_TOKEN = os.getenv(\"COMET_API_TOKEN\")",
         "detail": "config",
         "documentation": {}
     },
@@ -1139,7 +1435,25 @@
         "kind": 5,
         "importPath": "config",
         "description": "config",
-        "peekOfCode": "DATABASE_URL = os.getenv(\"DATABASE_URL\")",
+        "peekOfCode": "DATABASE_URL = os.getenv(\"DATABASE_URL\")\nCOMET_API_URL = os.getenv(\"COMET_API_URL\")\nCOMET_API_TOKEN = os.getenv(\"COMET_API_TOKEN\")",
+        "detail": "config",
+        "documentation": {}
+    },
+    {
+        "label": "COMET_API_URL",
+        "kind": 5,
+        "importPath": "config",
+        "description": "config",
+        "peekOfCode": "COMET_API_URL = os.getenv(\"COMET_API_URL\")\nCOMET_API_TOKEN = os.getenv(\"COMET_API_TOKEN\")",
+        "detail": "config",
+        "documentation": {}
+    },
+    {
+        "label": "COMET_API_TOKEN",
+        "kind": 5,
+        "importPath": "config",
+        "description": "config",
+        "peekOfCode": "COMET_API_TOKEN = os.getenv(\"COMET_API_TOKEN\")",
         "detail": "config",
         "documentation": {}
     }

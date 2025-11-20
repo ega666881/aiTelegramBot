@@ -7,7 +7,7 @@ def mainMenuKeyboard(buttonsTexts: list):
             InlineKeyboardButton(text=buttonsTexts[0], callback_data='profile')
         ],
         [
-            InlineKeyboardButton(text=buttonsTexts[1], callback_data='profile'),
+            InlineKeyboardButton(text=buttonsTexts[1], callback_data='textModels'),
             InlineKeyboardButton(text=buttonsTexts[2], callback_data='profile'),
         ],
         [
