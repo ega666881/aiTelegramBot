@@ -1352,7 +1352,7 @@
         "kind": 6,
         "importPath": "src.i18btn.locales.ru",
         "description": "src.i18btn.locales.ru",
-        "peekOfCode": "class TextModelsLocale:\n    @staticmethod\n    def getHelloMessage():\n        return \"\"\"💡 GPTs/Claude/Gemini\n🎙️ Голосом, ✍️ текстом, 🌅 изображением — задавайте любые вопросы удобным способом и SYNTX тут же найдёт решение + 🌐 выход в интернет (только 4 версия модели).\"\"\"\n    @staticmethod\n    def getMainButtons():\n        return [\n            'Выбрать модель',\n            '◀️Назад'",
+        "peekOfCode": "class TextModelsLocale:\n    @staticmethod\n    def getHelloMessage():\n        return \"\"\"💡 GPTs/Claude/Gemini\n🎙️ Голосом, ✍️ текстом, 🌅 изображением — задавайте любые вопросы удобным способом и тут же найдёт решение + 🌐 выход в интернет (только 4 версия модели).\"\"\"\n    @staticmethod\n    def getMainButtons():\n        return [\n            'Выбрать модель',\n            '◀️Назад'",
         "detail": "src.i18btn.locales.ru",
         "documentation": {}
     },
