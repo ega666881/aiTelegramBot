@@ -42,6 +42,20 @@ class ProfileLocale:
     def getSelectPaymentMethodText():
         return f"Выберите способ оплаты"
 
+class AIModelsLocale:
+    @staticmethod
+    def getWaitAnswerText():
+        return "AI обрабатывает запрос"
+    
+    @staticmethod
+    def getSelectModelText():
+        return "Выберите модель:",
+
+    @staticmethod
+    def getChangeModalText(modelName: str):
+        return f"Вы выбрали: <b>{modelName}</b>\nОтправьте запрос в чат"
+
+
 class TextModelsLocale:
     @staticmethod
     def getHelloMessage():
@@ -55,6 +69,9 @@ class TextModelsLocale:
             'Выбрать модель',
             '◀️Назад'
         ]
+
+    
+    
 
 class PaymentLocale:
     @staticmethod
@@ -93,8 +110,10 @@ class RuLocale:
     shared_texts: SharedTexts
     payment_locale: PaymentLocale
     text_models_locale: TextModelsLocale
+    ai_models_locale: AIModelsLocale
 
     def __init__(self) -> None:
+        self.ai_models_locale = AIModelsLocale()
         self.start_locale = StartLocale()
         self.profile_locale = ProfileLocale()
         self.shared_texts = SharedTexts()

@@ -44,4 +44,15 @@ async def select_lang(call: types.CallbackQuery):
         
         await call.message.answer(userRepo.locale.start_locale.getMainMenuMessage(), reply_markup=mainMenuKeyboard(userRepo.locale.start_locale.getMainMenuKeyboardText()))
 
-        
+async def mainMenu(message: types.Message, telegram_id: int):
+    async with AsyncSessionLocal() as session:
+        userRepo = UserRepository(session)
+        await userRepo.getUser(telegram_id)
+        await message.answer(userRepo.locale.start_locale.getMainMenuMessage(), reply_markup=mainMenuKeyboard(userRepo.locale.start_locale.getMainMenuKeyboardText()))
+
+@router.callback_query(F.data.split("_")[0] == 'back')
+async def backHandler(call: types.CallbackQuery):
+    backTo = call.data.split("_")[1]
+    match (backTo):
+        case "main":
+            return await mainMenu(call.message, call.from_user.id)

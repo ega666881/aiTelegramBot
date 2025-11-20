@@ -5,7 +5,7 @@ import aiohttp
 import asyncio
 from typing import Optional, Dict, Any
 import random
-
+from . import classifyModels
 
 baseUrl = config.COMET_API_URL
 
@@ -21,6 +21,7 @@ class Methods(Enum):
 
 class CometApi:
     models = []
+    groupedModels = []
     default_headers = {
         'Authorization': 'Bearer ' + config.COMET_API_TOKEN
     }
@@ -66,10 +67,20 @@ class CometApi:
 
     async def getModels(self):
         response = await self.sendGetRequest(Endpoints.GET_MODELS.value)
+        data = response['data']
 
-        for model in response['data']:
+        for model in data:
             self.models.append(model["id"])
-            
+
+        self.groupedModels = classifyModels.getClassifyModels(data)
+    
+    def getModelsByCategory(self, categoryName: str):
+        result = []
+        for provider, models_list in self.groupedModels[categoryName].items():
+            result.extend(models_list)
+
+        return sorted(result)
+
     async def sendPostRequest(
             self,
             url: str,
@@ -83,10 +94,6 @@ class CometApi:
             params: dict = None
         ):
         return await self.__fetchWithRetry(Methods.GET.value, url, params)
-
-    
-
-
 
 
 class TextModels(CometApi):

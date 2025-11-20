@@ -6,3 +6,4 @@ alembic
 psycopg2
 aiohttp
 requests
+aiogram-pagination

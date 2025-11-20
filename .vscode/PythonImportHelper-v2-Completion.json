@@ -64,6 +64,38 @@
         "documentation": {}
     },
     {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Awaitable",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Callable",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
         "label": "Optional",
         "importPath": "typing",
         "description": "typing",
@@ -186,14 +218,6 @@
     },
     {
         "label": "DateTime",
-        "importPath": "sqlalchemy",
-        "description": "sqlalchemy",
-        "isExtraImport": true,
-        "detail": "sqlalchemy",
-        "documentation": {}
-    },
-    {
-        "label": "select",
         "importPath": "sqlalchemy",
         "description": "sqlalchemy",
         "isExtraImport": true,
@@ -420,6 +444,246 @@
         "documentation": {}
     },
     {
+        "label": "BaseMiddleware",
+        "importPath": "aiogram",
+        "description": "aiogram",
+        "isExtraImport": true,
+        "detail": "aiogram",
+        "documentation": {}
+    },
+    {
+        "label": "Router",
+        "importPath": "aiogram",
+        "description": "aiogram",
+        "isExtraImport": true,
+        "detail": "aiogram",
+        "documentation": {}
+    },
+    {
+        "label": "F",
+        "importPath": "aiogram",
+        "description": "aiogram",
+        "isExtraImport": true,
+        "detail": "aiogram",
+        "documentation": {}
+    },
+    {
+        "label": "types",
+        "importPath": "aiogram",
+        "description": "aiogram",
+        "isExtraImport": true,
+        "detail": "aiogram",
+        "documentation": {}
+    },
+    {
+        "label": "Router",
+        "importPath": "aiogram",
+        "description": "aiogram",
+        "isExtraImport": true,
+        "detail": "aiogram",
+        "documentation": {}
+    },
+    {
+        "label": "types",
+        "importPath": "aiogram",
+        "description": "aiogram",
+        "isExtraImport": true,
+        "detail": "aiogram",
+        "documentation": {}
+    },
+    {
+        "label": "F",
+        "importPath": "aiogram",
+        "description": "aiogram",
+        "isExtraImport": true,
+        "detail": "aiogram",
+        "documentation": {}
+    },
+    {
+        "label": "Router",
+        "importPath": "aiogram",
+        "description": "aiogram",
+        "isExtraImport": true,
+        "detail": "aiogram",
+        "documentation": {}
+    },
+    {
+        "label": "types",
+        "importPath": "aiogram",
+        "description": "aiogram",
+        "isExtraImport": true,
+        "detail": "aiogram",
+        "documentation": {}
+    },
+    {
+        "label": "F",
+        "importPath": "aiogram",
+        "description": "aiogram",
+        "isExtraImport": true,
+        "detail": "aiogram",
+        "documentation": {}
+    },
+    {
+        "label": "Router",
+        "importPath": "aiogram",
+        "description": "aiogram",
+        "isExtraImport": true,
+        "detail": "aiogram",
+        "documentation": {}
+    },
+    {
+        "label": "types",
+        "importPath": "aiogram",
+        "description": "aiogram",
+        "isExtraImport": true,
+        "detail": "aiogram",
+        "documentation": {}
+    },
+    {
+        "label": "F",
+        "importPath": "aiogram",
+        "description": "aiogram",
+        "isExtraImport": true,
+        "detail": "aiogram",
+        "documentation": {}
+    },
+    {
+        "label": "Bot",
+        "importPath": "aiogram",
+        "description": "aiogram",
+        "isExtraImport": true,
+        "detail": "aiogram",
+        "documentation": {}
+    },
+    {
+        "label": "Router",
+        "importPath": "aiogram",
+        "description": "aiogram",
+        "isExtraImport": true,
+        "detail": "aiogram",
+        "documentation": {}
+    },
+    {
+        "label": "types",
+        "importPath": "aiogram",
+        "description": "aiogram",
+        "isExtraImport": true,
+        "detail": "aiogram",
+        "documentation": {}
+    },
+    {
+        "label": "F",
+        "importPath": "aiogram",
+        "description": "aiogram",
+        "isExtraImport": true,
+        "detail": "aiogram",
+        "documentation": {}
+    },
+    {
+        "label": "Router",
+        "importPath": "aiogram",
+        "description": "aiogram",
+        "isExtraImport": true,
+        "detail": "aiogram",
+        "documentation": {}
+    },
+    {
+        "label": "types",
+        "importPath": "aiogram",
+        "description": "aiogram",
+        "isExtraImport": true,
+        "detail": "aiogram",
+        "documentation": {}
+    },
+    {
+        "label": "F",
+        "importPath": "aiogram",
+        "description": "aiogram",
+        "isExtraImport": true,
+        "detail": "aiogram",
+        "documentation": {}
+    },
+    {
+        "label": "Bot",
+        "importPath": "aiogram",
+        "description": "aiogram",
+        "isExtraImport": true,
+        "detail": "aiogram",
+        "documentation": {}
+    },
+    {
+        "label": "Dispatcher",
+        "importPath": "aiogram",
+        "description": "aiogram",
+        "isExtraImport": true,
+        "detail": "aiogram",
+        "documentation": {}
+    },
+    {
+        "label": "Router",
+        "importPath": "aiogram",
+        "description": "aiogram",
+        "isExtraImport": true,
+        "detail": "aiogram",
+        "documentation": {}
+    },
+    {
+        "label": "F",
+        "importPath": "aiogram",
+        "description": "aiogram",
+        "isExtraImport": true,
+        "detail": "aiogram",
+        "documentation": {}
+    },
+    {
+        "label": "types",
+        "importPath": "aiogram",
+        "description": "aiogram",
+        "isExtraImport": true,
+        "detail": "aiogram",
+        "documentation": {}
+    },
+    {
+        "label": "Bot",
+        "importPath": "aiogram",
+        "description": "aiogram",
+        "isExtraImport": true,
+        "detail": "aiogram",
+        "documentation": {}
+    },
+    {
+        "label": "Dispatcher",
+        "importPath": "aiogram",
+        "description": "aiogram",
+        "isExtraImport": true,
+        "detail": "aiogram",
+        "documentation": {}
+    },
+    {
+        "label": "CallbackQuery",
+        "importPath": "aiogram.types",
+        "description": "aiogram.types",
+        "isExtraImport": true,
+        "detail": "aiogram.types",
+        "documentation": {}
+    },
+    {
+        "label": "InlineKeyboardMarkup",
+        "importPath": "aiogram.types",
+        "description": "aiogram.types",
+        "isExtraImport": true,
+        "detail": "aiogram.types",
+        "documentation": {}
+    },
+    {
+        "label": "InlineKeyboardButton",
+        "importPath": "aiogram.types",
+        "description": "aiogram.types",
+        "isExtraImport": true,
+        "detail": "aiogram.types",
+        "documentation": {}
+    },
+    {
         "label": "InlineKeyboardMarkup",
         "importPath": "aiogram.types",
         "description": "aiogram.types",
@@ -516,22 +780,6 @@
         "documentation": {}
     },
     {
-        "label": "InlineKeyboardMarkup",
-        "importPath": "aiogram.types",
-        "description": "aiogram.types",
-        "isExtraImport": true,
-        "detail": "aiogram.types",
-        "documentation": {}
-    },
-    {
-        "label": "InlineKeyboardButton",
-        "importPath": "aiogram.types",
-        "description": "aiogram.types",
-        "isExtraImport": true,
-        "detail": "aiogram.types",
-        "documentation": {}
-    },
-    {
         "label": "LabeledPrice",
         "importPath": "aiogram.types",
         "description": "aiogram.types",
@@ -540,179 +788,131 @@
         "documentation": {}
     },
     {
-        "label": "Enum",
-        "importPath": "enum",
-        "description": "enum",
+        "label": "FSMContext",
+        "importPath": "aiogram.fsm.context",
+        "description": "aiogram.fsm.context",
         "isExtraImport": true,
-        "detail": "enum",
+        "detail": "aiogram.fsm.context",
         "documentation": {}
     },
     {
-        "label": "Enum",
-        "importPath": "enum",
-        "description": "enum",
+        "label": "FSMContext",
+        "importPath": "aiogram.fsm.context",
+        "description": "aiogram.fsm.context",
         "isExtraImport": true,
-        "detail": "enum",
+        "detail": "aiogram.fsm.context",
         "documentation": {}
     },
     {
-        "label": "Router",
-        "importPath": "aiogram",
-        "description": "aiogram",
+        "label": "FSMContext",
+        "importPath": "aiogram.fsm.context",
+        "description": "aiogram.fsm.context",
         "isExtraImport": true,
-        "detail": "aiogram",
+        "detail": "aiogram.fsm.context",
         "documentation": {}
     },
     {
-        "label": "types",
-        "importPath": "aiogram",
-        "description": "aiogram",
+        "label": "FSMContext",
+        "importPath": "aiogram.fsm.context",
+        "description": "aiogram.fsm.context",
         "isExtraImport": true,
-        "detail": "aiogram",
+        "detail": "aiogram.fsm.context",
         "documentation": {}
     },
     {
-        "label": "F",
-        "importPath": "aiogram",
-        "description": "aiogram",
+        "label": "cometApi",
+        "importPath": "src.utils.cometApi.cometApi",
+        "description": "src.utils.cometApi.cometApi",
         "isExtraImport": true,
-        "detail": "aiogram",
+        "detail": "src.utils.cometApi.cometApi",
         "documentation": {}
     },
     {
-        "label": "Bot",
-        "importPath": "aiogram",
-        "description": "aiogram",
+        "label": "cometApi",
+        "importPath": "src.utils.cometApi.cometApi",
+        "description": "src.utils.cometApi.cometApi",
         "isExtraImport": true,
-        "detail": "aiogram",
+        "detail": "src.utils.cometApi.cometApi",
         "documentation": {}
     },
     {
-        "label": "Router",
-        "importPath": "aiogram",
-        "description": "aiogram",
+        "label": "textModels",
+        "importPath": "src.utils.cometApi.cometApi",
+        "description": "src.utils.cometApi.cometApi",
         "isExtraImport": true,
-        "detail": "aiogram",
+        "detail": "src.utils.cometApi.cometApi",
         "documentation": {}
     },
     {
-        "label": "types",
-        "importPath": "aiogram",
-        "description": "aiogram",
+        "label": "cometApi",
+        "importPath": "src.utils.cometApi.cometApi",
+        "description": "src.utils.cometApi.cometApi",
         "isExtraImport": true,
-        "detail": "aiogram",
+        "detail": "src.utils.cometApi.cometApi",
         "documentation": {}
     },
     {
-        "label": "F",
-        "importPath": "aiogram",
-        "description": "aiogram",
+        "label": "textModels",
+        "importPath": "src.utils.cometApi.cometApi",
+        "description": "src.utils.cometApi.cometApi",
         "isExtraImport": true,
-        "detail": "aiogram",
+        "detail": "src.utils.cometApi.cometApi",
         "documentation": {}
     },
     {
-        "label": "Router",
-        "importPath": "aiogram",
-        "description": "aiogram",
+        "label": "ModelsClasses",
+        "importPath": "src.utils.cometApi.classifyModels",
+        "description": "src.utils.cometApi.classifyModels",
         "isExtraImport": true,
-        "detail": "aiogram",
+        "detail": "src.utils.cometApi.classifyModels",
         "documentation": {}
     },
     {
-        "label": "types",
-        "importPath": "aiogram",
-        "description": "aiogram",
+        "label": "StatesGroup",
+        "importPath": "aiogram.fsm.state",
+        "description": "aiogram.fsm.state",
         "isExtraImport": true,
-        "detail": "aiogram",
+        "detail": "aiogram.fsm.state",
         "documentation": {}
     },
     {
-        "label": "F",
-        "importPath": "aiogram",
-        "description": "aiogram",
+        "label": "State",
+        "importPath": "aiogram.fsm.state",
+        "description": "aiogram.fsm.state",
         "isExtraImport": true,
-        "detail": "aiogram",
+        "detail": "aiogram.fsm.state",
         "documentation": {}
     },
     {
-        "label": "Router",
-        "importPath": "aiogram",
-        "description": "aiogram",
+        "label": "StatesGroup",
+        "importPath": "aiogram.fsm.state",
+        "description": "aiogram.fsm.state",
         "isExtraImport": true,
-        "detail": "aiogram",
+        "detail": "aiogram.fsm.state",
         "documentation": {}
     },
     {
-        "label": "types",
-        "importPath": "aiogram",
-        "description": "aiogram",
+        "label": "State",
+        "importPath": "aiogram.fsm.state",
+        "description": "aiogram.fsm.state",
         "isExtraImport": true,
-        "detail": "aiogram",
+        "detail": "aiogram.fsm.state",
         "documentation": {}
     },
     {
-        "label": "F",
-        "importPath": "aiogram",
-        "description": "aiogram",
+        "label": "Command",
+        "importPath": "aiogram.filters",
+        "description": "aiogram.filters",
         "isExtraImport": true,
-        "detail": "aiogram",
+        "detail": "aiogram.filters",
         "documentation": {}
     },
     {
-        "label": "Bot",
-        "importPath": "aiogram",
-        "description": "aiogram",
+        "label": "Command",
+        "importPath": "aiogram.filters",
+        "description": "aiogram.filters",
         "isExtraImport": true,
-        "detail": "aiogram",
-        "documentation": {}
-    },
-    {
-        "label": "Dispatcher",
-        "importPath": "aiogram",
-        "description": "aiogram",
-        "isExtraImport": true,
-        "detail": "aiogram",
-        "documentation": {}
-    },
-    {
-        "label": "Router",
-        "importPath": "aiogram",
-        "description": "aiogram",
-        "isExtraImport": true,
-        "detail": "aiogram",
-        "documentation": {}
-    },
-    {
-        "label": "F",
-        "importPath": "aiogram",
-        "description": "aiogram",
-        "isExtraImport": true,
-        "detail": "aiogram",
-        "documentation": {}
-    },
-    {
-        "label": "types",
-        "importPath": "aiogram",
-        "description": "aiogram",
-        "isExtraImport": true,
-        "detail": "aiogram",
-        "documentation": {}
-    },
-    {
-        "label": "Bot",
-        "importPath": "aiogram",
-        "description": "aiogram",
-        "isExtraImport": true,
-        "detail": "aiogram",
-        "documentation": {}
-    },
-    {
-        "label": "Dispatcher",
-        "importPath": "aiogram",
-        "description": "aiogram",
-        "isExtraImport": true,
-        "detail": "aiogram",
+        "detail": "aiogram.filters",
         "documentation": {}
     },
     {
@@ -748,92 +948,35 @@
         "documentation": {}
     },
     {
-        "label": "Command",
-        "importPath": "aiogram.filters",
-        "description": "aiogram.filters",
-        "isExtraImport": true,
-        "detail": "aiogram.filters",
-        "documentation": {}
-    },
-    {
-        "label": "aiogram.fsm.context",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "aiogram.fsm.context",
-        "description": "aiogram.fsm.context",
-        "detail": "aiogram.fsm.context",
-        "documentation": {}
-    },
-    {
-        "label": "FSMContext",
-        "importPath": "aiogram.fsm.context",
-        "description": "aiogram.fsm.context",
-        "isExtraImport": true,
-        "detail": "aiogram.fsm.context",
-        "documentation": {}
-    },
-    {
-        "label": "FSMContext",
-        "importPath": "aiogram.fsm.context",
-        "description": "aiogram.fsm.context",
-        "isExtraImport": true,
-        "detail": "aiogram.fsm.context",
-        "documentation": {}
-    },
-    {
-        "label": "StatesGroup",
-        "importPath": "aiogram.fsm.state",
-        "description": "aiogram.fsm.state",
-        "isExtraImport": true,
-        "detail": "aiogram.fsm.state",
-        "documentation": {}
-    },
-    {
-        "label": "State",
-        "importPath": "aiogram.fsm.state",
-        "description": "aiogram.fsm.state",
-        "isExtraImport": true,
-        "detail": "aiogram.fsm.state",
-        "documentation": {}
-    },
-    {
-        "label": "StatesGroup",
-        "importPath": "aiogram.fsm.state",
-        "description": "aiogram.fsm.state",
-        "isExtraImport": true,
-        "detail": "aiogram.fsm.state",
-        "documentation": {}
-    },
-    {
-        "label": "State",
-        "importPath": "aiogram.fsm.state",
-        "description": "aiogram.fsm.state",
-        "isExtraImport": true,
-        "detail": "aiogram.fsm.state",
-        "documentation": {}
-    },
-    {
         "label": "textModels",
-        "importPath": "src.utils.cometApi.cometApi",
-        "description": "src.utils.cometApi.cometApi",
+        "importPath": "src.utils.aiModels",
+        "description": "src.utils.aiModels",
         "isExtraImport": true,
-        "detail": "src.utils.cometApi.cometApi",
+        "detail": "src.utils.aiModels",
         "documentation": {}
     },
     {
-        "label": "cometApi",
-        "importPath": "src.utils.cometApi.cometApi",
-        "description": "src.utils.cometApi.cometApi",
+        "label": "Enum",
+        "importPath": "enum",
+        "description": "enum",
         "isExtraImport": true,
-        "detail": "src.utils.cometApi.cometApi",
+        "detail": "enum",
         "documentation": {}
     },
     {
-        "label": "textModels",
-        "importPath": "src.utils.cometApi.cometApi",
-        "description": "src.utils.cometApi.cometApi",
+        "label": "Enum",
+        "importPath": "enum",
+        "description": "enum",
         "isExtraImport": true,
-        "detail": "src.utils.cometApi.cometApi",
+        "detail": "enum",
+        "documentation": {}
+    },
+    {
+        "label": "Enum",
+        "importPath": "enum",
+        "description": "enum",
+        "isExtraImport": true,
+        "detail": "enum",
         "documentation": {}
     },
     {
@@ -842,6 +985,14 @@
         "description": "src.database.models.user",
         "isExtraImport": true,
         "detail": "src.database.models.user",
+        "documentation": {}
+    },
+    {
+        "label": "defaultdict",
+        "importPath": "collections",
+        "description": "collections",
+        "isExtraImport": true,
+        "detail": "collections",
         "documentation": {}
     },
     {
@@ -931,10 +1082,26 @@
     },
     {
         "label": "textModels",
-        "importPath": "src.routes.textModels",
-        "description": "src.routes.textModels",
+        "importPath": "src.routes.aiModels.textModels",
+        "description": "src.routes.aiModels.textModels",
         "isExtraImport": true,
-        "detail": "src.routes.textModels",
+        "detail": "src.routes.aiModels.textModels",
+        "documentation": {}
+    },
+    {
+        "label": "aiModels",
+        "importPath": "src.routes.aiModels",
+        "description": "src.routes.aiModels",
+        "isExtraImport": true,
+        "detail": "src.routes.aiModels",
+        "documentation": {}
+    },
+    {
+        "label": "GetUserRepositoryMiddleware",
+        "importPath": "src.middlewares.getUserRepositoryMiddleware",
+        "description": "src.middlewares.getUserRepositoryMiddleware",
+        "isExtraImport": true,
+        "detail": "src.middlewares.getUserRepositoryMiddleware",
         "documentation": {}
     },
     {
@@ -1172,6 +1339,15 @@
         "documentation": {}
     },
     {
+        "label": "AIModelsLocale",
+        "kind": 6,
+        "importPath": "src.i18btn.locales.ru",
+        "description": "src.i18btn.locales.ru",
+        "peekOfCode": "class AIModelsLocale:\n    @staticmethod\n    def getWaitAnswerText():\n        return \"AI обрабатывает запрос\"\n    @staticmethod\n    def getSelectModelText():\n        return \"Выберите модель:\",\n    @staticmethod\n    def getChangeModalText(modelName: str):\n        return f\"Вы выбрали: <b>{modelName}</b>\\nОтправьте запрос в чат\"",
+        "detail": "src.i18btn.locales.ru",
+        "documentation": {}
+    },
+    {
         "label": "TextModelsLocale",
         "kind": 6,
         "importPath": "src.i18btn.locales.ru",
@@ -1203,7 +1379,7 @@
         "kind": 6,
         "importPath": "src.i18btn.locales.ru",
         "description": "src.i18btn.locales.ru",
-        "peekOfCode": "class RuLocale:\n    start_locale: StartLocale\n    profile_locale: ProfileLocale\n    shared_texts: SharedTexts\n    payment_locale: PaymentLocale\n    text_models_locale: TextModelsLocale\n    def __init__(self) -> None:\n        self.start_locale = StartLocale()\n        self.profile_locale = ProfileLocale()\n        self.shared_texts = SharedTexts()",
+        "peekOfCode": "class RuLocale:\n    start_locale: StartLocale\n    profile_locale: ProfileLocale\n    shared_texts: SharedTexts\n    payment_locale: PaymentLocale\n    text_models_locale: TextModelsLocale\n    ai_models_locale: AIModelsLocale\n    def __init__(self) -> None:\n        self.ai_models_locale = AIModelsLocale()\n        self.start_locale = StartLocale()",
         "detail": "src.i18btn.locales.ru",
         "documentation": {}
     },
@@ -1223,6 +1399,69 @@
         "description": "src.i18btn.getLang",
         "peekOfCode": "def getLocale(lang: str) -> RuLocale:\n    match (lang):\n        case 'ru':\n            return ru_locale\n        case 'en':\n            return eng_locale\n        case _:\n            raise ValueError(f\"Unsupported language: {lang}\")",
         "detail": "src.i18btn.getLang",
+        "documentation": {}
+    },
+    {
+        "label": "GetUserRepositoryMiddleware",
+        "kind": 6,
+        "importPath": "src.middlewares.getUserRepositoryMiddleware",
+        "description": "src.middlewares.getUserRepositoryMiddleware",
+        "peekOfCode": "class GetUserRepositoryMiddleware(BaseMiddleware):\n    async def __call__(\n        self,\n        handler: Callable[[CallbackQuery, Dict[str, Any]], Awaitable[Any]],\n        event: CallbackQuery,\n        data: Dict[str, Any]\n    ) -> Any:\n        async with AsyncSessionLocal() as session:\n            userRepo = UserRepository(session)\n            await userRepo.getUser(event.from_user.id)",
+        "detail": "src.middlewares.getUserRepositoryMiddleware",
+        "documentation": {}
+    },
+    {
+        "label": "get_paginated_keyboard",
+        "kind": 2,
+        "importPath": "src.routes.aiModels.keyboards.selectModelKeyboard",
+        "description": "src.routes.aiModels.keyboards.selectModelKeyboard",
+        "peekOfCode": "def get_paginated_keyboard(items, page=0, per_page=8, nav_prefix=\"page\"):\n    total = len(items)\n    total_pages = (total + per_page - 1) // per_page\n    start = page * per_page\n    end = min(start + per_page, total)\n    buttons = [\n        [types.InlineKeyboardButton(text=item, callback_data=f\"change_model:{item}\")]\n        for item in items[start:end]\n    ]\n    nav = []",
+        "detail": "src.routes.aiModels.keyboards.selectModelKeyboard",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "src.routes.aiModels.keyboards.selectModelKeyboard",
+        "description": "src.routes.aiModels.keyboards.selectModelKeyboard",
+        "peekOfCode": "router = Router()\n@router.callback_query(\n    F.data.startswith(\"text_page:\")\n)\nasync def handle_pagination(callback: types.CallbackQuery, state: FSMContext):\n    page = int(callback.data.split(\":\", 1)[1])\n    data = await state.get_data()\n    models = cometApi.getModelsByCategory(data['changeModelCategory'])\n    keyboard = get_paginated_keyboard(\n        items=models,",
+        "detail": "src.routes.aiModels.keyboards.selectModelKeyboard",
+        "documentation": {}
+    },
+    {
+        "label": "mainKeyboard",
+        "kind": 2,
+        "importPath": "src.routes.aiModels.textModels.keyboards.textModelsKeyboard",
+        "description": "src.routes.aiModels.textModels.keyboards.textModelsKeyboard",
+        "peekOfCode": "def mainKeyboard(buttonsTexts: list):\n    buttons = [\n        [\n            InlineKeyboardButton(text=buttonsTexts[0], callback_data=f'select_model:{ModelsClasses.TEXTS.value}')\n        ],\n        [\n            InlineKeyboardButton(text=buttonsTexts[1], callback_data='back_main'),\n        ],\n    ]\n    keyboard = InlineKeyboardMarkup(inline_keyboard=buttons)",
+        "detail": "src.routes.aiModels.textModels.keyboards.textModelsKeyboard",
+        "documentation": {}
+    },
+    {
+        "label": "TextModelStates",
+        "kind": 6,
+        "importPath": "src.routes.aiModels.textModels.states",
+        "description": "src.routes.aiModels.textModels.states",
+        "peekOfCode": "class TextModelStates(StatesGroup):\n    GET_PROMT_MESSAGE = State()",
+        "detail": "src.routes.aiModels.textModels.states",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "src.routes.aiModels.textModels.textModels",
+        "description": "src.routes.aiModels.textModels.textModels",
+        "peekOfCode": "router = Router()\n@router.callback_query(F.data == 'textModels')\nasync def textModelsHandler(call: types.CallbackQuery, state: FSMContext): \n    async with AsyncSessionLocal() as session:\n        userRepo = UserRepository(session)\n        await userRepo.getUser(call.from_user.id)\n        await state.set_state(TextModelStates.GET_PROMT_MESSAGE)\n        await call.message.edit_text(\n            userRepo.locale.text_models_locale.getHelloMessage(),\n            reply_markup=textModelsKeyboard.mainKeyboard(userRepo.locale.text_models_locale.getMainButtons())",
+        "detail": "src.routes.aiModels.textModels.textModels",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "src.routes.aiModels.aiModels",
+        "description": "src.routes.aiModels.aiModels",
+        "peekOfCode": "router = Router()\nrouter.include_router(selectModelKeyboard.router)\n@router.callback_query(F.data.split(\":\")[0] == 'select_model')\nasync def selectModel(call: types.CallbackQuery, state: FSMContext, userRepo: UserRepository):\n    categoryModel = call.data.split(\":\")[1]\n    await state.update_data({\n        \"changeModelCategory\": categoryModel\n    })\n    await call.message.answer(userRepo.locale.ai_models_locale.getSelectModelText(), reply_markup=get_paginated_keyboard(\n        cometApi.getModelsByCategory(categoryModel),",
+        "detail": "src.routes.aiModels.aiModels",
         "documentation": {}
     },
     {
@@ -1316,30 +1555,30 @@
         "documentation": {}
     },
     {
-        "label": "mainKeyboard",
-        "kind": 2,
-        "importPath": "src.routes.textModels.keyboards.textModelsKeyboard",
-        "description": "src.routes.textModels.keyboards.textModelsKeyboard",
-        "peekOfCode": "def mainKeyboard(buttonsTexts: list):\n    buttons = [\n        [\n            InlineKeyboardButton(text=buttonsTexts[0], callback_data='select_model')\n        ],\n        [\n            InlineKeyboardButton(text=buttonsTexts[1], callback_data='back_main'),\n        ],\n    ]\n    keyboard = InlineKeyboardMarkup(inline_keyboard=buttons)",
-        "detail": "src.routes.textModels.keyboards.textModelsKeyboard",
-        "documentation": {}
-    },
-    {
-        "label": "TextModelStates",
+        "label": "ModelsClasses",
         "kind": 6,
-        "importPath": "src.routes.textModels.states",
-        "description": "src.routes.textModels.states",
-        "peekOfCode": "class TextModelStates(StatesGroup):\n    GET_PROMT_MESSAGE = State()",
-        "detail": "src.routes.textModels.states",
+        "importPath": "src.utils.cometApi.classifyModels",
+        "description": "src.utils.cometApi.classifyModels",
+        "peekOfCode": "class ModelsClasses(Enum):\n    TEXTS = \"textModels\"\n    IMAGES = \"imagesModels\"\n    VIDEO = \"videoModels\",\n    AUDIO = \"audioModels\",\n    EDITIND = \"editingModels\",\n    EMBENDS = \"embendModels\",\n    OTHER = \"otherModels\",\ndef classify_model(model_id: str, owned_by: str) -> str:\n    model_id_lower = model_id.lower()",
+        "detail": "src.utils.cometApi.classifyModels",
         "documentation": {}
     },
     {
-        "label": "router",
-        "kind": 5,
-        "importPath": "src.routes.textModels.textModels",
-        "description": "src.routes.textModels.textModels",
-        "peekOfCode": "router = Router()\n@router.callback_query(F.data == 'textModels')\nasync def textModels(call: types.CallbackQuery, state: FSMContext): \n    async with AsyncSessionLocal() as session:\n        userRepo = UserRepository(session)\n        await userRepo.getUser(call.from_user.id)\n        await state.set_state(TextModelStates.GET_PROMT_MESSAGE)\n        await call.message.edit_text(\n            userRepo.locale.text_models_locale.getHelloMessage(),\n            reply_markup=textModelsKeyboard.mainKeyboard(userRepo.locale.text_models_locale.getMainButtons())",
-        "detail": "src.routes.textModels.textModels",
+        "label": "classify_model",
+        "kind": 2,
+        "importPath": "src.utils.cometApi.classifyModels",
+        "description": "src.utils.cometApi.classifyModels",
+        "peekOfCode": "def classify_model(model_id: str, owned_by: str) -> str:\n    model_id_lower = model_id.lower()\n    if any(kw in model_id_lower for kw in [\n        \"flux\", \"sdxl\", \"stable-diffusion\", \"dall-e\", \"ideogram\", \"recraft\", \"text_to_image\",\n        \"text-to-image\", \"image-to-video\", \"t2i\", \"imagegen\", \"gpt-image\", \"mj_\", \"stability\"\n    ]):\n        return ModelsClasses.IMAGES.value\n    if any(kw in model_id_lower for kw in [\n        \"video\", \"sora\", \"runway\", \"kling\", \"luma\", \"veo\", \"seedance\", \"i2v\", \"t2v\"\n    ]):",
+        "detail": "src.utils.cometApi.classifyModels",
+        "documentation": {}
+    },
+    {
+        "label": "getClassifyModels",
+        "kind": 2,
+        "importPath": "src.utils.cometApi.classifyModels",
+        "description": "src.utils.cometApi.classifyModels",
+        "peekOfCode": "def getClassifyModels(models: list[str]):\n    grouped = defaultdict(lambda: defaultdict(list))\n    for model in models:\n        model_id = model[\"id\"]\n        owner = model.get(\"owned_by\", \"unknown\")\n        category = classify_model(model_id, owner)\n        grouped[category][owner].append(model_id)\n    return grouped",
+        "detail": "src.utils.cometApi.classifyModels",
         "documentation": {}
     },
     {
@@ -1347,7 +1586,7 @@
         "kind": 6,
         "importPath": "src.utils.cometApi.cometApi",
         "description": "src.utils.cometApi.cometApi",
-        "peekOfCode": "class Endpoints(Enum):\n    GET_MODELS = baseUrl + \"/v1/models\"\n    TEXT_MODEL = baseUrl + \"/v1/chat/completions\"\nclass Methods(Enum):\n    GET = 'GET'\n    POST = 'POST'\n    PUT = 'PUT'\nclass CometApi:\n    models = []\n    default_headers = {",
+        "peekOfCode": "class Endpoints(Enum):\n    GET_MODELS = baseUrl + \"/v1/models\"\n    TEXT_MODEL = baseUrl + \"/v1/chat/completions\"\nclass Methods(Enum):\n    GET = 'GET'\n    POST = 'POST'\n    PUT = 'PUT'\nclass CometApi:\n    models = []\n    groupedModels = []",
         "detail": "src.utils.cometApi.cometApi",
         "documentation": {}
     },
@@ -1356,7 +1595,7 @@
         "kind": 6,
         "importPath": "src.utils.cometApi.cometApi",
         "description": "src.utils.cometApi.cometApi",
-        "peekOfCode": "class Methods(Enum):\n    GET = 'GET'\n    POST = 'POST'\n    PUT = 'PUT'\nclass CometApi:\n    models = []\n    default_headers = {\n        'Authorization': 'Bearer ' + config.COMET_API_TOKEN\n    }\n    async def __fetchWithRetry(",
+        "peekOfCode": "class Methods(Enum):\n    GET = 'GET'\n    POST = 'POST'\n    PUT = 'PUT'\nclass CometApi:\n    models = []\n    groupedModels = []\n    default_headers = {\n        'Authorization': 'Bearer ' + config.COMET_API_TOKEN\n    }",
         "detail": "src.utils.cometApi.cometApi",
         "documentation": {}
     },
@@ -1365,7 +1604,7 @@
         "kind": 6,
         "importPath": "src.utils.cometApi.cometApi",
         "description": "src.utils.cometApi.cometApi",
-        "peekOfCode": "class CometApi:\n    models = []\n    default_headers = {\n        'Authorization': 'Bearer ' + config.COMET_API_TOKEN\n    }\n    async def __fetchWithRetry(\n        self,\n        method: str,\n        url: str,\n        params: Optional[Dict[str, Any]] = None,",
+        "peekOfCode": "class CometApi:\n    models = []\n    groupedModels = []\n    default_headers = {\n        'Authorization': 'Bearer ' + config.COMET_API_TOKEN\n    }\n    async def __fetchWithRetry(\n        self,\n        method: str,\n        url: str,",
         "detail": "src.utils.cometApi.cometApi",
         "documentation": {}
     },
