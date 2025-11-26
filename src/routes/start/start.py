@@ -1,10 +1,11 @@
 from aiogram import Router, types, F
 from aiogram.filters import Command
+from aiogram.fsm.context import FSMContext
 from sqlalchemy import select
 from sqlalchemy.ext.asyncio import AsyncSession
 
 from ...database.database import AsyncSessionLocal
-from ...database.models.user import User, UserRepository
+from ...database.repositories.userRepo import User, UserRepository
 from ...i18btn.getLang import getLocale
 from .keyboards.selectLangKeyboard import select_lang_keyboard
 from .keyboards.mainMenuKeyboard import mainMenuKeyboard
@@ -12,9 +13,9 @@ from .keyboards.mainMenuKeyboard import mainMenuKeyboard
 router = Router()
 
 @router.message(Command("start"))
-async def cmd_start(message: types.Message):
+async def cmd_start(message: types.Message, state: FSMContext):
     async with AsyncSessionLocal() as session:
-        
+        await state.set_state(None)
         userRepo = UserRepository(session)
         
         await userRepo.getUser(message.from_user.id)
@@ -37,7 +38,6 @@ async def select_lang(call: types.CallbackQuery):
     async with AsyncSessionLocal() as session:
         userRepo = UserRepository(session)
         await userRepo.getUser(call.from_user.id)
-        
         selected_lang = call.data.split('_')
         userRepo.user.lang = selected_lang[1]
         await userRepo.updateUser()

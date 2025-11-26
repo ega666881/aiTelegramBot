@@ -1,4 +1,4 @@
-from src.utils.cometApi.cometApi import textModels
+from src.utils.cometApi.category.textModels import textModels
 from src.database.models.user import User
 
 

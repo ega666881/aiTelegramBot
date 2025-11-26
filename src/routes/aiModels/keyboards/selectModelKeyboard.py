@@ -23,6 +23,12 @@ def get_paginated_keyboard(items, page=0, per_page=8, nav_prefix="page"):
     if nav:
         buttons.append(nav)
 
+    buttons.append(
+        [
+            types.InlineKeyboardButton(text="Отмена", callback_data=f"textModels")
+        ]
+    )
+
     return types.InlineKeyboardMarkup(inline_keyboard=buttons)
 
 

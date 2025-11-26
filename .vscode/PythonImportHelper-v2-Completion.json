@@ -80,6 +80,70 @@
         "documentation": {}
     },
     {
+        "label": "Sequence",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Union",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Sequence",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Union",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Sequence",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Union",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Sequence",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Union",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
         "label": "Any",
         "importPath": "typing",
         "description": "typing",
@@ -133,6 +197,38 @@
         "description": "typing",
         "isExtraImport": true,
         "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "op",
+        "importPath": "alembic",
+        "description": "alembic",
+        "isExtraImport": true,
+        "detail": "alembic",
+        "documentation": {}
+    },
+    {
+        "label": "op",
+        "importPath": "alembic",
+        "description": "alembic",
+        "isExtraImport": true,
+        "detail": "alembic",
+        "documentation": {}
+    },
+    {
+        "label": "op",
+        "importPath": "alembic",
+        "description": "alembic",
+        "isExtraImport": true,
+        "detail": "alembic",
+        "documentation": {}
+    },
+    {
+        "label": "op",
+        "importPath": "alembic",
+        "description": "alembic",
+        "isExtraImport": true,
+        "detail": "alembic",
         "documentation": {}
     },
     {
@@ -250,6 +346,78 @@
     },
     {
         "label": "BigInteger",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "ForeignKey",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "event",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Integer",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "String",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "DateTime",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "BigInteger",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "ForeignKey",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "event",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "select",
         "importPath": "sqlalchemy",
         "description": "sqlalchemy",
         "isExtraImport": true,
@@ -387,6 +555,78 @@
         "documentation": {}
     },
     {
+        "label": "relationship",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "DeclarativeBase",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "Mapped",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "mapped_column",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "relationship",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "selectinload",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "contains_eager",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "selectinload",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "contains_eager",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
         "label": "DeclarativeBase",
         "importPath": "sqlalchemy.orm",
         "description": "sqlalchemy.orm",
@@ -400,6 +640,22 @@
         "description": "datetime",
         "isExtraImport": true,
         "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncSession",
+        "importPath": "sqlalchemy.ext.asyncio",
+        "description": "sqlalchemy.ext.asyncio",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.ext.asyncio",
         "documentation": {}
     },
     {
@@ -477,6 +733,30 @@
     },
     {
         "label": "BaseMiddleware",
+        "importPath": "aiogram",
+        "description": "aiogram",
+        "isExtraImport": true,
+        "detail": "aiogram",
+        "documentation": {}
+    },
+    {
+        "label": "Router",
+        "importPath": "aiogram",
+        "description": "aiogram",
+        "isExtraImport": true,
+        "detail": "aiogram",
+        "documentation": {}
+    },
+    {
+        "label": "types",
+        "importPath": "aiogram",
+        "description": "aiogram",
+        "isExtraImport": true,
+        "detail": "aiogram",
+        "documentation": {}
+    },
+    {
+        "label": "F",
         "importPath": "aiogram",
         "description": "aiogram",
         "isExtraImport": true,
@@ -629,6 +909,30 @@
     },
     {
         "label": "F",
+        "importPath": "aiogram",
+        "description": "aiogram",
+        "isExtraImport": true,
+        "detail": "aiogram",
+        "documentation": {}
+    },
+    {
+        "label": "types",
+        "importPath": "aiogram",
+        "description": "aiogram",
+        "isExtraImport": true,
+        "detail": "aiogram",
+        "documentation": {}
+    },
+    {
+        "label": "Bot",
+        "importPath": "aiogram",
+        "description": "aiogram",
+        "isExtraImport": true,
+        "detail": "aiogram",
+        "documentation": {}
+    },
+    {
+        "label": "types",
         "importPath": "aiogram",
         "description": "aiogram",
         "isExtraImport": true,
@@ -748,6 +1052,22 @@
         "documentation": {}
     },
     {
+        "label": "InlineKeyboardMarkup",
+        "importPath": "aiogram.types",
+        "description": "aiogram.types",
+        "isExtraImport": true,
+        "detail": "aiogram.types",
+        "documentation": {}
+    },
+    {
+        "label": "InlineKeyboardButton",
+        "importPath": "aiogram.types",
+        "description": "aiogram.types",
+        "isExtraImport": true,
+        "detail": "aiogram.types",
+        "documentation": {}
+    },
+    {
         "label": "ReplyKeyboardMarkup",
         "importPath": "aiogram.types",
         "description": "aiogram.types",
@@ -757,6 +1077,22 @@
     },
     {
         "label": "KeyboardButton",
+        "importPath": "aiogram.types",
+        "description": "aiogram.types",
+        "isExtraImport": true,
+        "detail": "aiogram.types",
+        "documentation": {}
+    },
+    {
+        "label": "InlineKeyboardMarkup",
+        "importPath": "aiogram.types",
+        "description": "aiogram.types",
+        "isExtraImport": true,
+        "detail": "aiogram.types",
+        "documentation": {}
+    },
+    {
+        "label": "InlineKeyboardButton",
         "importPath": "aiogram.types",
         "description": "aiogram.types",
         "isExtraImport": true,
@@ -852,23 +1188,136 @@
         "documentation": {}
     },
     {
-        "label": "cometApi",
-        "importPath": "src.utils.cometApi.cometApi",
-        "description": "src.utils.cometApi.cometApi",
+        "label": "FSMContext",
+        "importPath": "aiogram.fsm.context",
+        "description": "aiogram.fsm.context",
         "isExtraImport": true,
-        "detail": "src.utils.cometApi.cometApi",
+        "detail": "aiogram.fsm.context",
         "documentation": {}
     },
     {
-        "label": "cometApi",
-        "importPath": "src.utils.cometApi.cometApi",
-        "description": "src.utils.cometApi.cometApi",
+        "label": "FSMContext",
+        "importPath": "aiogram.fsm.context",
+        "description": "aiogram.fsm.context",
         "isExtraImport": true,
-        "detail": "src.utils.cometApi.cometApi",
+        "detail": "aiogram.fsm.context",
+        "documentation": {}
+    },
+    {
+        "label": "UserRepository",
+        "importPath": "src.database.repositories.userRepo",
+        "description": "src.database.repositories.userRepo",
+        "isExtraImport": true,
+        "detail": "src.database.repositories.userRepo",
+        "documentation": {}
+    },
+    {
+        "label": "src.utils.aiModels",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "src.utils.aiModels",
+        "description": "src.utils.aiModels",
+        "detail": "src.utils.aiModels",
+        "documentation": {}
+    },
+    {
+        "label": "imageModels",
+        "importPath": "src.utils.aiModels",
+        "description": "src.utils.aiModels",
+        "isExtraImport": true,
+        "detail": "src.utils.aiModels",
         "documentation": {}
     },
     {
         "label": "textModels",
+        "importPath": "src.utils.aiModels",
+        "description": "src.utils.aiModels",
+        "isExtraImport": true,
+        "detail": "src.utils.aiModels",
+        "documentation": {}
+    },
+    {
+        "label": "imageModels",
+        "importPath": "src.utils.aiModels",
+        "description": "src.utils.aiModels",
+        "isExtraImport": true,
+        "detail": "src.utils.aiModels",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncSessionLocal",
+        "importPath": "src.database.database",
+        "description": "src.database.database",
+        "isExtraImport": true,
+        "detail": "src.database.database",
+        "documentation": {}
+    },
+    {
+        "label": "init_db",
+        "importPath": "src.database.database",
+        "description": "src.database.database",
+        "isExtraImport": true,
+        "detail": "src.database.database",
+        "documentation": {}
+    },
+    {
+        "label": "backKeyboard",
+        "importPath": "src.sharedKeyboards",
+        "description": "src.sharedKeyboards",
+        "isExtraImport": true,
+        "detail": "src.sharedKeyboards",
+        "documentation": {}
+    },
+    {
+        "label": "StatesGroup",
+        "importPath": "aiogram.fsm.state",
+        "description": "aiogram.fsm.state",
+        "isExtraImport": true,
+        "detail": "aiogram.fsm.state",
+        "documentation": {}
+    },
+    {
+        "label": "State",
+        "importPath": "aiogram.fsm.state",
+        "description": "aiogram.fsm.state",
+        "isExtraImport": true,
+        "detail": "aiogram.fsm.state",
+        "documentation": {}
+    },
+    {
+        "label": "StatesGroup",
+        "importPath": "aiogram.fsm.state",
+        "description": "aiogram.fsm.state",
+        "isExtraImport": true,
+        "detail": "aiogram.fsm.state",
+        "documentation": {}
+    },
+    {
+        "label": "State",
+        "importPath": "aiogram.fsm.state",
+        "description": "aiogram.fsm.state",
+        "isExtraImport": true,
+        "detail": "aiogram.fsm.state",
+        "documentation": {}
+    },
+    {
+        "label": "StatesGroup",
+        "importPath": "aiogram.fsm.state",
+        "description": "aiogram.fsm.state",
+        "isExtraImport": true,
+        "detail": "aiogram.fsm.state",
+        "documentation": {}
+    },
+    {
+        "label": "State",
+        "importPath": "aiogram.fsm.state",
+        "description": "aiogram.fsm.state",
+        "isExtraImport": true,
+        "detail": "aiogram.fsm.state",
+        "documentation": {}
+    },
+    {
+        "label": "cometApi",
         "importPath": "src.utils.cometApi.cometApi",
         "description": "src.utils.cometApi.cometApi",
         "isExtraImport": true,
@@ -884,7 +1333,7 @@
         "documentation": {}
     },
     {
-        "label": "textModels",
+        "label": "cometApi",
         "importPath": "src.utils.cometApi.cometApi",
         "description": "src.utils.cometApi.cometApi",
         "isExtraImport": true,
@@ -900,35 +1349,51 @@
         "documentation": {}
     },
     {
-        "label": "StatesGroup",
-        "importPath": "aiogram.fsm.state",
-        "description": "aiogram.fsm.state",
+        "label": "classify_model",
+        "importPath": "src.utils.cometApi.classifyModels",
+        "description": "src.utils.cometApi.classifyModels",
         "isExtraImport": true,
-        "detail": "aiogram.fsm.state",
+        "detail": "src.utils.cometApi.classifyModels",
         "documentation": {}
     },
     {
-        "label": "State",
-        "importPath": "aiogram.fsm.state",
-        "description": "aiogram.fsm.state",
+        "label": "getClassifyModels",
+        "importPath": "src.utils.cometApi.classifyModels",
+        "description": "src.utils.cometApi.classifyModels",
         "isExtraImport": true,
-        "detail": "aiogram.fsm.state",
+        "detail": "src.utils.cometApi.classifyModels",
         "documentation": {}
     },
     {
-        "label": "StatesGroup",
-        "importPath": "aiogram.fsm.state",
-        "description": "aiogram.fsm.state",
+        "label": "ModelsClasses",
+        "importPath": "src.utils.cometApi.classifyModels",
+        "description": "src.utils.cometApi.classifyModels",
         "isExtraImport": true,
-        "detail": "aiogram.fsm.state",
+        "detail": "src.utils.cometApi.classifyModels",
         "documentation": {}
     },
     {
-        "label": "State",
-        "importPath": "aiogram.fsm.state",
-        "description": "aiogram.fsm.state",
+        "label": "ModelsClasses",
+        "importPath": "src.utils.cometApi.classifyModels",
+        "description": "src.utils.cometApi.classifyModels",
         "isExtraImport": true,
-        "detail": "aiogram.fsm.state",
+        "detail": "src.utils.cometApi.classifyModels",
+        "documentation": {}
+    },
+    {
+        "label": "ModelsClasses",
+        "importPath": "src.utils.cometApi.classifyModels",
+        "description": "src.utils.cometApi.classifyModels",
+        "isExtraImport": true,
+        "detail": "src.utils.cometApi.classifyModels",
+        "documentation": {}
+    },
+    {
+        "label": "ModelsClasses",
+        "importPath": "src.utils.cometApi.classifyModels",
+        "description": "src.utils.cometApi.classifyModels",
+        "isExtraImport": true,
+        "detail": "src.utils.cometApi.classifyModels",
         "documentation": {}
     },
     {
@@ -980,35 +1445,51 @@
         "documentation": {}
     },
     {
+        "label": "Enum",
+        "importPath": "enum",
+        "description": "enum",
+        "isExtraImport": true,
+        "detail": "enum",
+        "documentation": {}
+    },
+    {
+        "label": "Enum",
+        "importPath": "enum",
+        "description": "enum",
+        "isExtraImport": true,
+        "detail": "enum",
+        "documentation": {}
+    },
+    {
+        "label": "Enum",
+        "importPath": "enum",
+        "description": "enum",
+        "isExtraImport": true,
+        "detail": "enum",
+        "documentation": {}
+    },
+    {
         "label": "textModels",
-        "importPath": "src.utils.aiModels",
-        "description": "src.utils.aiModels",
+        "importPath": "src.utils.cometApi.category.textModels",
+        "description": "src.utils.cometApi.category.textModels",
         "isExtraImport": true,
-        "detail": "src.utils.aiModels",
+        "detail": "src.utils.cometApi.category.textModels",
         "documentation": {}
     },
     {
-        "label": "Enum",
-        "importPath": "enum",
-        "description": "enum",
+        "label": "textModels",
+        "importPath": "src.utils.cometApi.category.textModels",
+        "description": "src.utils.cometApi.category.textModels",
         "isExtraImport": true,
-        "detail": "enum",
+        "detail": "src.utils.cometApi.category.textModels",
         "documentation": {}
     },
     {
-        "label": "Enum",
-        "importPath": "enum",
-        "description": "enum",
+        "label": "mjModel",
+        "importPath": "src.utils.cometApi.category.midJModel",
+        "description": "src.utils.cometApi.category.midJModel",
         "isExtraImport": true,
-        "detail": "enum",
-        "documentation": {}
-    },
-    {
-        "label": "Enum",
-        "importPath": "enum",
-        "description": "enum",
-        "isExtraImport": true,
-        "detail": "enum",
+        "detail": "src.utils.cometApi.category.midJModel",
         "documentation": {}
     },
     {
@@ -1017,6 +1498,41 @@
         "description": "src.database.models.user",
         "isExtraImport": true,
         "detail": "src.database.models.user",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "src.database.models.user",
+        "description": "src.database.models.user",
+        "isExtraImport": true,
+        "detail": "src.database.models.user",
+        "documentation": {}
+    },
+    {
+        "label": "asyncio",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "asyncio",
+        "description": "asyncio",
+        "detail": "asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "re",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "re",
+        "description": "re",
+        "detail": "re",
+        "documentation": {}
+    },
+    {
+        "label": "json",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "json",
+        "description": "json",
+        "detail": "json",
         "documentation": {}
     },
     {
@@ -1043,15 +1559,6 @@
         "importPath": "aiohttp",
         "description": "aiohttp",
         "detail": "aiohttp",
-        "documentation": {}
-    },
-    {
-        "label": "asyncio",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "asyncio",
-        "description": "asyncio",
-        "detail": "asyncio",
         "documentation": {}
     },
     {
@@ -1086,14 +1593,6 @@
         "description": "src.routes.start",
         "isExtraImport": true,
         "detail": "src.routes.start",
-        "documentation": {}
-    },
-    {
-        "label": "init_db",
-        "importPath": "src.database.database",
-        "description": "src.database.database",
-        "isExtraImport": true,
-        "detail": "src.database.database",
         "documentation": {}
     },
     {
@@ -1134,6 +1633,14 @@
         "description": "src.middlewares.getUserRepositoryMiddleware",
         "isExtraImport": true,
         "detail": "src.middlewares.getUserRepositoryMiddleware",
+        "documentation": {}
+    },
+    {
+        "label": "checkTasksModels",
+        "importPath": "src.utils.cometApi.checkTasksModels",
+        "description": "src.utils.cometApi.checkTasksModels",
+        "isExtraImport": true,
+        "detail": "src.utils.cometApi.checkTasksModels",
         "documentation": {}
     },
     {
@@ -1211,6 +1718,60 @@
     {
         "label": "upgrade",
         "kind": 2,
+        "importPath": "alembic.versions.7700f2ff1fcf_",
+        "description": "alembic.versions.7700f2ff1fcf_",
+        "peekOfCode": "def upgrade() -> None:\n    \"\"\"Upgrade schema.\"\"\"\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.add_column('user_selected_models', sa.Column('editing_models', sa.String(), nullable=True))\n    op.add_column('user_selected_models', sa.Column('other_models', sa.String(), nullable=True))\n    op.add_column('user_selected_models', sa.Column('embends_models', sa.String(), nullable=True))\n    # ### end Alembic commands ###\ndef downgrade() -> None:\n    \"\"\"Downgrade schema.\"\"\"\n    # ### commands auto generated by Alembic - please adjust! ###",
+        "detail": "alembic.versions.7700f2ff1fcf_",
+        "documentation": {}
+    },
+    {
+        "label": "downgrade",
+        "kind": 2,
+        "importPath": "alembic.versions.7700f2ff1fcf_",
+        "description": "alembic.versions.7700f2ff1fcf_",
+        "peekOfCode": "def downgrade() -> None:\n    \"\"\"Downgrade schema.\"\"\"\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.drop_column('user_selected_models', 'embends_models')\n    op.drop_column('user_selected_models', 'other_models')\n    op.drop_column('user_selected_models', 'editing_models')\n    # ### end Alembic commands ###",
+        "detail": "alembic.versions.7700f2ff1fcf_",
+        "documentation": {}
+    },
+    {
+        "label": "upgrade",
+        "kind": 2,
+        "importPath": "alembic.versions.c1360da814e2_",
+        "description": "alembic.versions.c1360da814e2_",
+        "peekOfCode": "def upgrade() -> None:\n    \"\"\"Upgrade schema.\"\"\"\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.create_unique_constraint(None, 'user_selected_models', ['user_id'])\n    # ### end Alembic commands ###\ndef downgrade() -> None:\n    \"\"\"Downgrade schema.\"\"\"\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.drop_constraint(None, 'user_selected_models', type_='unique')\n    # ### end Alembic commands ###",
+        "detail": "alembic.versions.c1360da814e2_",
+        "documentation": {}
+    },
+    {
+        "label": "downgrade",
+        "kind": 2,
+        "importPath": "alembic.versions.c1360da814e2_",
+        "description": "alembic.versions.c1360da814e2_",
+        "peekOfCode": "def downgrade() -> None:\n    \"\"\"Downgrade schema.\"\"\"\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.drop_constraint(None, 'user_selected_models', type_='unique')\n    # ### end Alembic commands ###",
+        "detail": "alembic.versions.c1360da814e2_",
+        "documentation": {}
+    },
+    {
+        "label": "upgrade",
+        "kind": 2,
+        "importPath": "alembic.versions.c150005a6a9a_",
+        "description": "alembic.versions.c150005a6a9a_",
+        "peekOfCode": "def upgrade() -> None:\n    \"\"\"Upgrade schema.\"\"\"\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.create_table('user_selected_models',\n    sa.Column('id', sa.Integer(), autoincrement=True, nullable=False),\n    sa.Column('user_id', sa.Integer(), nullable=False),\n    sa.Column('text_models', sa.String(), nullable=True),\n    sa.Column('audio_models', sa.String(), nullable=True),\n    sa.Column('video_models', sa.String(), nullable=True),\n    sa.Column('image_models', sa.String(), nullable=True),",
+        "detail": "alembic.versions.c150005a6a9a_",
+        "documentation": {}
+    },
+    {
+        "label": "downgrade",
+        "kind": 2,
+        "importPath": "alembic.versions.c150005a6a9a_",
+        "description": "alembic.versions.c150005a6a9a_",
+        "peekOfCode": "def downgrade() -> None:\n    \"\"\"Downgrade schema.\"\"\"\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.drop_table('user_selected_models')\n    # ### end Alembic commands ###",
+        "detail": "alembic.versions.c150005a6a9a_",
+        "documentation": {}
+    },
+    {
+        "label": "upgrade",
+        "kind": 2,
         "importPath": "alembic.versions.de6d8dd4376f_initial_migration",
         "description": "alembic.versions.de6d8dd4376f_initial_migration",
         "peekOfCode": "def upgrade() -> None:\n    \"\"\"Upgrade schema.\"\"\"\n    # ### commands auto generated by Alembic - please adjust! ###\n    pass\n    # ### end Alembic commands ###\ndef downgrade() -> None:\n    \"\"\"Downgrade schema.\"\"\"\n    # ### commands auto generated by Alembic - please adjust! ###\n    pass\n    # ### end Alembic commands ###",
@@ -1224,6 +1785,24 @@
         "description": "alembic.versions.de6d8dd4376f_initial_migration",
         "peekOfCode": "def downgrade() -> None:\n    \"\"\"Downgrade schema.\"\"\"\n    # ### commands auto generated by Alembic - please adjust! ###\n    pass\n    # ### end Alembic commands ###",
         "detail": "alembic.versions.de6d8dd4376f_initial_migration",
+        "documentation": {}
+    },
+    {
+        "label": "upgrade",
+        "kind": 2,
+        "importPath": "alembic.versions.ec43cf98100a_",
+        "description": "alembic.versions.ec43cf98100a_",
+        "peekOfCode": "def upgrade() -> None:\n    \"\"\"Upgrade schema.\"\"\"\n    # ### commands auto generated by Alembic - please adjust! ###\n    pass\n    # ### end Alembic commands ###\ndef downgrade() -> None:\n    \"\"\"Downgrade schema.\"\"\"\n    # ### commands auto generated by Alembic - please adjust! ###\n    pass\n    # ### end Alembic commands ###",
+        "detail": "alembic.versions.ec43cf98100a_",
+        "documentation": {}
+    },
+    {
+        "label": "downgrade",
+        "kind": 2,
+        "importPath": "alembic.versions.ec43cf98100a_",
+        "description": "alembic.versions.ec43cf98100a_",
+        "peekOfCode": "def downgrade() -> None:\n    \"\"\"Downgrade schema.\"\"\"\n    # ### commands auto generated by Alembic - please adjust! ###\n    pass\n    # ### end Alembic commands ###",
+        "detail": "alembic.versions.ec43cf98100a_",
         "documentation": {}
     },
     {
@@ -1281,21 +1860,57 @@
         "documentation": {}
     },
     {
+        "label": "ModelTask",
+        "kind": 6,
+        "importPath": "src.database.models.modelTasks",
+        "description": "src.database.models.modelTasks",
+        "peekOfCode": "class ModelTask(Base):\n    __tablename__ = \"models_tasks\"\n    id: Mapped[int] = mapped_column(Integer, primary_key=True)\n    telegram_id: Mapped[int] = mapped_column(BigInteger, unique=True, index=True)\n    task_id: Mapped[str] = mapped_column(String, nullable=True)\n    model_name: Mapped[str] = mapped_column(String, nullable=True)\n    created_at: Mapped[datetime] = mapped_column(DateTime, default=datetime.utcnow)",
+        "detail": "src.database.models.modelTasks",
+        "documentation": {}
+    },
+    {
         "label": "User",
         "kind": 6,
         "importPath": "src.database.models.user",
         "description": "src.database.models.user",
-        "peekOfCode": "class User(Base):\n    __tablename__ = \"users\"\n    id: Mapped[int] = mapped_column(Integer, primary_key=True)\n    telegram_id: Mapped[int] = mapped_column(BigInteger, unique=True, index=True)\n    username: Mapped[str] = mapped_column(String, nullable=True)\n    tokens: Mapped[int] = mapped_column(Integer, nullable=False, default=0)\n    lang: Mapped[str] = mapped_column(String, nullable=True, default='eng')\n    created_at: Mapped[datetime] = mapped_column(\n        DateTime,\n        default=datetime.utcnow",
+        "peekOfCode": "class User(Base):\n    __tablename__ = \"users\"\n    id: Mapped[int] = mapped_column(Integer, primary_key=True)\n    telegram_id: Mapped[int] = mapped_column(BigInteger, unique=True, index=True)\n    username: Mapped[str] = mapped_column(String, nullable=True)\n    tokens: Mapped[int] = mapped_column(Integer, nullable=False, default=0)\n    lang: Mapped[str] = mapped_column(String, nullable=True, default='eng')\n    created_at: Mapped[datetime] = mapped_column(DateTime, default=datetime.utcnow)\n    selected_models: Mapped[\"UserSelectedModel\"] = relationship(\n        \"UserSelectedModel\",",
         "detail": "src.database.models.user",
+        "documentation": {}
+    },
+    {
+        "label": "UserSelectedModel",
+        "kind": 6,
+        "importPath": "src.database.models.user",
+        "description": "src.database.models.user",
+        "peekOfCode": "class UserSelectedModel(Base):\n    __tablename__ = \"user_selected_models\"\n    id: Mapped[int] = mapped_column(Integer, primary_key=True)\n    user_id: Mapped[int] = mapped_column(ForeignKey(\"users.id\"), unique=True)\n    text_models: Mapped[str] = mapped_column(String, nullable=True)\n    audio_models: Mapped[str] = mapped_column(String, nullable=True)\n    video_models: Mapped[str] = mapped_column(String, nullable=True)\n    image_models: Mapped[str] = mapped_column(String, nullable=True)\n    editing_models: Mapped[str] = mapped_column(String, nullable=True)\n    other_models: Mapped[str] = mapped_column(String, nullable=True)",
+        "detail": "src.database.models.user",
+        "documentation": {}
+    },
+    {
+        "label": "init_user_selected_models",
+        "kind": 2,
+        "importPath": "src.database.models.user",
+        "description": "src.database.models.user",
+        "peekOfCode": "def init_user_selected_models(target, args, kwargs):\n    target.selected_models = UserSelectedModel()",
+        "detail": "src.database.models.user",
+        "documentation": {}
+    },
+    {
+        "label": "ModelTaskRepo",
+        "kind": 6,
+        "importPath": "src.database.repositories.modelTaskRepo",
+        "description": "src.database.repositories.modelTaskRepo",
+        "peekOfCode": "class ModelTaskRepo:\n    task: ModelTask\n    def __init__(self, session: AsyncSession,):\n        self.session = session\n    async def getAllTasks(self):\n        result = await self.session.execute(\n            select(ModelTask)\n        )\n        return result.scalars().all()\n    async def deleteTask(self, task: ModelTask):",
+        "detail": "src.database.repositories.modelTaskRepo",
         "documentation": {}
     },
     {
         "label": "UserRepository",
         "kind": 6,
-        "importPath": "src.database.models.user",
-        "description": "src.database.models.user",
+        "importPath": "src.database.repositories.userRepo",
+        "description": "src.database.repositories.userRepo",
         "peekOfCode": "class UserRepository: \n    session: AsyncSession\n    telegram_id: int\n    user: User = None\n    locale: RuLocale\n    def __init__(self, session: AsyncSession,):\n        self.session = session\n    async def getUser(self, telegram_id):\n        result = await self.session.execute(\n            select(User).where(User.telegram_id == telegram_id)",
-        "detail": "src.database.models.user",
+        "detail": "src.database.repositories.userRepo",
         "documentation": {}
     },
     {
@@ -1411,7 +2026,7 @@
         "kind": 6,
         "importPath": "src.i18btn.locales.ru",
         "description": "src.i18btn.locales.ru",
-        "peekOfCode": "class AIModelsLocale:\n    @staticmethod\n    def getWaitAnswerText():\n        return \"AI обрабатывает запрос\"\n    @staticmethod\n    def getSelectModelText():\n        return \"Выберите модель:\",\n    @staticmethod\n    def getChangeModalText(modelName: str):\n        return f\"Вы выбрали: <b>{modelName}</b>\\nОтправьте запрос в чат\"",
+        "peekOfCode": "class AIModelsLocale:\n    @staticmethod\n    def getWaitAnswerText():\n        return \"AI обрабатывает запрос\"\n    @staticmethod\n    def getSelectModelText():\n        return \"Выберите модель:\"\n    @staticmethod\n    def getChangeModalText(modelName: str):\n        return f\"Вы выбрали: <b>{modelName}</b>\\nОтправьте запрос в чат\"",
         "detail": "src.i18btn.locales.ru",
         "documentation": {}
     },
@@ -1421,6 +2036,15 @@
         "importPath": "src.i18btn.locales.ru",
         "description": "src.i18btn.locales.ru",
         "peekOfCode": "class TextModelsLocale:\n    @staticmethod\n    def getHelloMessage():\n        return \"\"\"💡 GPTs/Claude/Gemini\n🎙️ Голосом, ✍️ текстом, 🌅 изображением — задавайте любые вопросы удобным способом и тут же найдёт решение + 🌐 выход в интернет (только 4 версия модели).\"\"\"\n    @staticmethod\n    def getMainButtons():\n        return [\n            'Выбрать модель',\n            '◀️Назад'",
+        "detail": "src.i18btn.locales.ru",
+        "documentation": {}
+    },
+    {
+        "label": "ImageModelsLocale",
+        "kind": 6,
+        "importPath": "src.i18btn.locales.ru",
+        "description": "src.i18btn.locales.ru",
+        "peekOfCode": "class ImageModelsLocale:\n    @staticmethod\n    def getHelloMessage():\n        return '🎨 Дизайн с ИИ\\nВыберите раздел для работы с изображением 👇'\n    @staticmethod\n    def getMjPromtMessage():\n        return '🌄 MidJourney\\n✍️ Напишите текстом, что хотите нарисовать или 🌄 загрузите изображение для обработки 👇'\n    @staticmethod\n    def getMjSendReqMessage():\n        return 'Запрос на генерацию поставлен в очередь, в чат придет результат генерации'",
         "detail": "src.i18btn.locales.ru",
         "documentation": {}
     },
@@ -1447,7 +2071,7 @@
         "kind": 6,
         "importPath": "src.i18btn.locales.ru",
         "description": "src.i18btn.locales.ru",
-        "peekOfCode": "class RuLocale:\n    start_locale: StartLocale\n    profile_locale: ProfileLocale\n    shared_texts: SharedTexts\n    payment_locale: PaymentLocale\n    text_models_locale: TextModelsLocale\n    ai_models_locale: AIModelsLocale\n    def __init__(self) -> None:\n        self.ai_models_locale = AIModelsLocale()\n        self.start_locale = StartLocale()",
+        "peekOfCode": "class RuLocale:\n    start_locale: StartLocale\n    profile_locale: ProfileLocale\n    shared_texts: SharedTexts\n    payment_locale: PaymentLocale\n    text_models_locale: TextModelsLocale\n    ai_models_locale: AIModelsLocale\n    image_models_locale: ImageModelsLocale\n    def __init__(self) -> None:\n        self.ai_models_locale = AIModelsLocale()",
         "detail": "src.i18btn.locales.ru",
         "documentation": {}
     },
@@ -1476,6 +2100,33 @@
         "description": "src.middlewares.getUserRepositoryMiddleware",
         "peekOfCode": "class GetUserRepositoryMiddleware(BaseMiddleware):\n    async def __call__(\n        self,\n        handler: Callable[[CallbackQuery, Dict[str, Any]], Awaitable[Any]],\n        event: CallbackQuery,\n        data: Dict[str, Any]\n    ) -> Any:\n        async with AsyncSessionLocal() as session:\n            userRepo = UserRepository(session)\n            await userRepo.getUser(event.from_user.id)",
         "detail": "src.middlewares.getUserRepositoryMiddleware",
+        "documentation": {}
+    },
+    {
+        "label": "mainMenuKeyboard",
+        "kind": 2,
+        "importPath": "src.routes.aiModels.imageModels.keyboards.selectImageModelKeyboard",
+        "description": "src.routes.aiModels.imageModels.keyboards.selectImageModelKeyboard",
+        "peekOfCode": "def mainMenuKeyboard(buttonsTexts: list):\n    buttons = [\n        [\n            InlineKeyboardButton(text=buttonsTexts[0], callback_data='select_mj')\n        ],\n        [\n            InlineKeyboardButton(text=buttonsTexts[1], callback_data='back_main'),\n        ],\n    ]\n    keyboard = InlineKeyboardMarkup(inline_keyboard=buttons)",
+        "detail": "src.routes.aiModels.imageModels.keyboards.selectImageModelKeyboard",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "src.routes.aiModels.imageModels.imageModels",
+        "description": "src.routes.aiModels.imageModels.imageModels",
+        "peekOfCode": "router = Router()\n@router.callback_query(F.data == 'imageModels')\nasync def imageModelsHandler(call: types.CallbackQuery, userRepo: UserRepository):\n    await call.message.edit_text(\n        userRepo.locale.image_models_locale.getHelloMessage(), \n        reply_markup=selectImageModelKeyboard.mainMenuKeyboard(userRepo.locale.image_models_locale.getMainButtons())\n        )\n@router.callback_query(F.data == 'select_mj')\nasync def selectMjModel(call: types.CallbackQuery, state: FSMContext, userRepo: UserRepository):\n    await state.set_state(ImageModelStates.GET_MJ_PROMT_MESSAGE)",
+        "detail": "src.routes.aiModels.imageModels.imageModels",
+        "documentation": {}
+    },
+    {
+        "label": "ImageModelStates",
+        "kind": 6,
+        "importPath": "src.routes.aiModels.imageModels.states",
+        "description": "src.routes.aiModels.imageModels.states",
+        "peekOfCode": "class ImageModelStates(StatesGroup):\n    GET_MJ_PROMT_MESSAGE = State()",
+        "detail": "src.routes.aiModels.imageModels.states",
         "documentation": {}
     },
     {
@@ -1528,7 +2179,7 @@
         "kind": 5,
         "importPath": "src.routes.aiModels.aiModels",
         "description": "src.routes.aiModels.aiModels",
-        "peekOfCode": "router = Router()\nrouter.include_router(selectModelKeyboard.router)\n@router.callback_query(F.data.split(\":\")[0] == 'select_model')\nasync def selectModel(call: types.CallbackQuery, state: FSMContext, userRepo: UserRepository):\n    categoryModel = call.data.split(\":\")[1]\n    await state.update_data({\n        \"changeModelCategory\": categoryModel\n    })\n    await call.message.answer(userRepo.locale.ai_models_locale.getSelectModelText(), reply_markup=get_paginated_keyboard(\n        cometApi.getModelsByCategory(categoryModel),",
+        "peekOfCode": "router = Router()\nrouter.include_routers(\n    selectModelKeyboard.router,\n    imageModelsRouter.router,\n    )\n@router.callback_query(F.data.split(\":\")[0] == 'select_model')\nasync def selectModel(call: types.CallbackQuery, state: FSMContext, userRepo: UserRepository):\n    categoryModel = call.data.split(\":\")[1]\n    await state.update_data({\n        \"changeModelCategory\": categoryModel",
         "detail": "src.routes.aiModels.aiModels",
         "documentation": {}
     },
@@ -1618,8 +2269,53 @@
         "kind": 5,
         "importPath": "src.routes.start.start",
         "description": "src.routes.start.start",
-        "peekOfCode": "router = Router()\n@router.message(Command(\"start\"))\nasync def cmd_start(message: types.Message):\n    async with AsyncSessionLocal() as session:\n        userRepo = UserRepository(session)\n        await userRepo.getUser(message.from_user.id)\n        if not userRepo.user:\n            await userRepo.createUser(User(\n                telegram_id = message.from_user.id,\n                username = message.from_user.username,",
+        "peekOfCode": "router = Router()\n@router.message(Command(\"start\"))\nasync def cmd_start(message: types.Message, state: FSMContext):\n    async with AsyncSessionLocal() as session:\n        await state.set_state(None)\n        userRepo = UserRepository(session)\n        await userRepo.getUser(message.from_user.id)\n        if not userRepo.user:\n            await userRepo.createUser(User(\n                telegram_id = message.from_user.id,",
         "detail": "src.routes.start.start",
+        "documentation": {}
+    },
+    {
+        "label": "backKeyboard",
+        "kind": 2,
+        "importPath": "src.sharedKeyboards.backKeyboard",
+        "description": "src.sharedKeyboards.backKeyboard",
+        "peekOfCode": "def backKeyboard(buttonText: str, backUrl: str):\n    print(buttonText, backUrl)\n    buttons = [\n        [\n            InlineKeyboardButton(text=buttonText, callback_data=backUrl),\n        ],\n    ]\n    keyboard = InlineKeyboardMarkup(inline_keyboard=buttons)\n    return keyboard",
+        "detail": "src.sharedKeyboards.backKeyboard",
+        "documentation": {}
+    },
+    {
+        "label": "MidJorneyModel",
+        "kind": 6,
+        "importPath": "src.utils.cometApi.category.midJModel",
+        "description": "src.utils.cometApi.category.midJModel",
+        "peekOfCode": "class MidJorneyModel(CometApi):\n    async def checkTask(self, taskId: str):\n        return await super().sendGetRequest(\n            Endpoints.MIDJ_IMAGE_CHECK_TASK.value + f\"{taskId}/fetch\"\n        )\n    async def sendImageRequest(self, promt: str, modelName: str, telegram_id: int):\n        async with AsyncSessionLocal() as session:\n            taskRepo = ModelTaskRepo(session)\n            task = await super().sendPostRequest(Endpoints.MIDJ_IMAGE_CREATE_TASK.value, {\n                \"prompt\": promt,",
+        "detail": "src.utils.cometApi.category.midJModel",
+        "documentation": {}
+    },
+    {
+        "label": "mjModel",
+        "kind": 5,
+        "importPath": "src.utils.cometApi.category.midJModel",
+        "description": "src.utils.cometApi.category.midJModel",
+        "peekOfCode": "mjModel = MidJorneyModel()",
+        "detail": "src.utils.cometApi.category.midJModel",
+        "documentation": {}
+    },
+    {
+        "label": "TextModels",
+        "kind": 6,
+        "importPath": "src.utils.cometApi.category.textModels",
+        "description": "src.utils.cometApi.category.textModels",
+        "peekOfCode": "class TextModels(CometApi):\n    def __checkValidModel(self, modelName: str):\n        if modelName not in super().models:\n            return False\n        else:\n            return True\n    async def sendImageGenerateRequest(self, modelName: str, promt: str, messagesHistory: list = []):\n        if self.__checkValidModel(modelName):\n            messages = [\n                *messagesHistory,",
+        "detail": "src.utils.cometApi.category.textModels",
+        "documentation": {}
+    },
+    {
+        "label": "textModels",
+        "kind": 5,
+        "importPath": "src.utils.cometApi.category.textModels",
+        "description": "src.utils.cometApi.category.textModels",
+        "peekOfCode": "textModels = TextModels()",
+        "detail": "src.utils.cometApi.category.textModels",
         "documentation": {}
     },
     {
@@ -1627,7 +2323,7 @@
         "kind": 6,
         "importPath": "src.utils.cometApi.classifyModels",
         "description": "src.utils.cometApi.classifyModels",
-        "peekOfCode": "class ModelsClasses(Enum):\n    TEXTS = \"textModels\"\n    IMAGES = \"imagesModels\"\n    VIDEO = \"videoModels\",\n    AUDIO = \"audioModels\",\n    EDITIND = \"editingModels\",\n    EMBENDS = \"embendModels\",\n    OTHER = \"otherModels\",\ndef classify_model(model_id: str, owned_by: str) -> str:\n    model_id_lower = model_id.lower()",
+        "peekOfCode": "class ModelsClasses(Enum):\n    TEXTS = \"textModels\"\n    IMAGES = \"imagesModels\"\n    VIDEO = \"videoModels\"\n    AUDIO = \"audioModels\"\n    EDITIND = \"editingModels\"\n    EMBENDS = \"embendModels\"\n    OTHER = \"otherModels\"\ndef classify_model(model_id: str) -> str:\n    model_id_lower = model_id.lower()",
         "detail": "src.utils.cometApi.classifyModels",
         "documentation": {}
     },
@@ -1636,7 +2332,7 @@
         "kind": 2,
         "importPath": "src.utils.cometApi.classifyModels",
         "description": "src.utils.cometApi.classifyModels",
-        "peekOfCode": "def classify_model(model_id: str, owned_by: str) -> str:\n    model_id_lower = model_id.lower()\n    if any(kw in model_id_lower for kw in [\n        \"flux\", \"sdxl\", \"stable-diffusion\", \"dall-e\", \"ideogram\", \"recraft\", \"text_to_image\",\n        \"text-to-image\", \"image-to-video\", \"t2i\", \"imagegen\", \"gpt-image\", \"mj_\", \"stability\"\n    ]):\n        return ModelsClasses.IMAGES.value\n    if any(kw in model_id_lower for kw in [\n        \"video\", \"sora\", \"runway\", \"kling\", \"luma\", \"veo\", \"seedance\", \"i2v\", \"t2v\"\n    ]):",
+        "peekOfCode": "def classify_model(model_id: str) -> str:\n    model_id_lower = model_id.lower()\n    if any(kw in model_id_lower for kw in [\n        \"flux\", \"sdxl\", \"stable-diffusion\", \"dall-e\", \"ideogram\", \"recraft\", \"text_to_image\",\n        \"text-to-image\", \"image-to-video\", \"t2i\", \"imagegen\", \"gpt-image\", \"mj_\", \"stability\"\n    ]):\n        return ModelsClasses.IMAGES.value\n    if any(kw in model_id_lower for kw in [\n        \"video\", \"sora\", \"runway\", \"kling\", \"luma\", \"veo\", \"seedance\", \"i2v\", \"t2v\"\n    ]):",
         "detail": "src.utils.cometApi.classifyModels",
         "documentation": {}
     },
@@ -1645,7 +2341,7 @@
         "kind": 2,
         "importPath": "src.utils.cometApi.classifyModels",
         "description": "src.utils.cometApi.classifyModels",
-        "peekOfCode": "def getClassifyModels(models: list[str]):\n    grouped = defaultdict(lambda: defaultdict(list))\n    for model in models:\n        model_id = model[\"id\"]\n        owner = model.get(\"owned_by\", \"unknown\")\n        category = classify_model(model_id, owner)\n        grouped[category][owner].append(model_id)\n    return grouped",
+        "peekOfCode": "def getClassifyModels(models: list[str]):\n    grouped = defaultdict(lambda: defaultdict(list))\n    for model in models:\n        model_id = model[\"id\"]\n        owner = model.get(\"owned_by\", \"unknown\")\n        category = classify_model(model_id)\n        grouped[category][owner].append(model_id)\n    return grouped",
         "detail": "src.utils.cometApi.classifyModels",
         "documentation": {}
     },
@@ -1654,7 +2350,7 @@
         "kind": 6,
         "importPath": "src.utils.cometApi.cometApi",
         "description": "src.utils.cometApi.cometApi",
-        "peekOfCode": "class Endpoints(Enum):\n    GET_MODELS = baseUrl + \"/v1/models\"\n    TEXT_MODEL = baseUrl + \"/v1/chat/completions\"\nclass Methods(Enum):\n    GET = 'GET'\n    POST = 'POST'\n    PUT = 'PUT'\nclass CometApi:\n    models = []\n    groupedModels = []",
+        "peekOfCode": "class Endpoints(Enum):\n    GET_MODELS = baseUrl + \"/v1/models\"\n    TEXT_MODEL = baseUrl + \"/v1/chat/completions\"\n    GET_PRICING = baseUrl + \"/api/pricing\"\n    MIDJ_IMAGE_CREATE_TASK = baseUrl + \"/mj/submit/imagine\"\n    MIDJ_IMAGE_CHECK_TASK = baseUrl + \"/mj/task/\"\nclass Methods(Enum):\n    GET = 'GET'\n    POST = 'POST'\n    PUT = 'PUT'",
         "detail": "src.utils.cometApi.cometApi",
         "documentation": {}
     },
@@ -1663,7 +2359,7 @@
         "kind": 6,
         "importPath": "src.utils.cometApi.cometApi",
         "description": "src.utils.cometApi.cometApi",
-        "peekOfCode": "class Methods(Enum):\n    GET = 'GET'\n    POST = 'POST'\n    PUT = 'PUT'\nclass CometApi:\n    models = []\n    groupedModels = []\n    default_headers = {\n        'Authorization': 'Bearer ' + config.COMET_API_TOKEN\n    }",
+        "peekOfCode": "class Methods(Enum):\n    GET = 'GET'\n    POST = 'POST'\n    PUT = 'PUT'\nclass CometApi:\n    models = []\n    modelsPrices = {}\n    groupedModels = []\n    default_headers = {\n        'Authorization': 'Bearer ' + config.COMET_API_TOKEN,",
         "detail": "src.utils.cometApi.cometApi",
         "documentation": {}
     },
@@ -1672,16 +2368,7 @@
         "kind": 6,
         "importPath": "src.utils.cometApi.cometApi",
         "description": "src.utils.cometApi.cometApi",
-        "peekOfCode": "class CometApi:\n    models = []\n    groupedModels = []\n    default_headers = {\n        'Authorization': 'Bearer ' + config.COMET_API_TOKEN\n    }\n    async def __fetchWithRetry(\n        self,\n        method: str,\n        url: str,",
-        "detail": "src.utils.cometApi.cometApi",
-        "documentation": {}
-    },
-    {
-        "label": "TextModels",
-        "kind": 6,
-        "importPath": "src.utils.cometApi.cometApi",
-        "description": "src.utils.cometApi.cometApi",
-        "peekOfCode": "class TextModels(CometApi):\n    def __checkValidModel(self, modelName: str):\n        if modelName not in super().models:\n            return False\n        else:\n            return True\n    async def sendTextRequest(self, modelName: str, promt: str, messagesHistory: list = []):\n        if self.__checkValidModel(modelName):\n            messages = [\n                *messagesHistory,",
+        "peekOfCode": "class CometApi:\n    models = []\n    modelsPrices = {}\n    groupedModels = []\n    default_headers = {\n        'Authorization': 'Bearer ' + config.COMET_API_TOKEN,\n        # 'Content-Type': 'application/json',\n    }\n    async def __fetchWithRetry(\n        self,",
         "detail": "src.utils.cometApi.cometApi",
         "documentation": {}
     },
@@ -1690,7 +2377,7 @@
         "kind": 5,
         "importPath": "src.utils.cometApi.cometApi",
         "description": "src.utils.cometApi.cometApi",
-        "peekOfCode": "baseUrl = config.COMET_API_URL\nclass Endpoints(Enum):\n    GET_MODELS = baseUrl + \"/v1/models\"\n    TEXT_MODEL = baseUrl + \"/v1/chat/completions\"\nclass Methods(Enum):\n    GET = 'GET'\n    POST = 'POST'\n    PUT = 'PUT'\nclass CometApi:\n    models = []",
+        "peekOfCode": "baseUrl = config.COMET_API_URL\nclass Endpoints(Enum):\n    GET_MODELS = baseUrl + \"/v1/models\"\n    TEXT_MODEL = baseUrl + \"/v1/chat/completions\"\n    GET_PRICING = baseUrl + \"/api/pricing\"\n    MIDJ_IMAGE_CREATE_TASK = baseUrl + \"/mj/submit/imagine\"\n    MIDJ_IMAGE_CHECK_TASK = baseUrl + \"/mj/task/\"\nclass Methods(Enum):\n    GET = 'GET'\n    POST = 'POST'",
         "detail": "src.utils.cometApi.cometApi",
         "documentation": {}
     },
@@ -1699,16 +2386,7 @@
         "kind": 5,
         "importPath": "src.utils.cometApi.cometApi",
         "description": "src.utils.cometApi.cometApi",
-        "peekOfCode": "cometApi = CometApi()\ntextModels = TextModels()",
-        "detail": "src.utils.cometApi.cometApi",
-        "documentation": {}
-    },
-    {
-        "label": "textModels",
-        "kind": 5,
-        "importPath": "src.utils.cometApi.cometApi",
-        "description": "src.utils.cometApi.cometApi",
-        "peekOfCode": "textModels = TextModels()",
+        "peekOfCode": "cometApi = CometApi()",
         "detail": "src.utils.cometApi.cometApi",
         "documentation": {}
     },
@@ -1717,7 +2395,7 @@
         "kind": 5,
         "importPath": "config",
         "description": "config",
-        "peekOfCode": "BOT_TOKEN = os.getenv(\"BOT_TOKEN\")\nDATABASE_URL = os.getenv(\"DATABASE_URL\")\nCOMET_API_URL = os.getenv(\"COMET_API_URL\")\nCOMET_API_TOKEN = os.getenv(\"COMET_API_TOKEN\")",
+        "peekOfCode": "BOT_TOKEN = os.getenv(\"BOT_TOKEN\")\nDATABASE_URL = os.getenv(\"DATABASE_URL\")\nCOMET_API_URL = os.getenv(\"COMET_API_URL\")\nCOMET_API_TOKEN = os.getenv(\"COMET_API_TOKEN\")\nTOKEN_USD_PRICE = os.getenv(\"TOKEN_USD_PRICE\")\nMARGIN = os.getenv(\"MARGIN\")\nGROUP_RATIO = os.getenv(\"GROUP_RATIO\")",
         "detail": "config",
         "documentation": {}
     },
@@ -1726,7 +2404,7 @@
         "kind": 5,
         "importPath": "config",
         "description": "config",
-        "peekOfCode": "DATABASE_URL = os.getenv(\"DATABASE_URL\")\nCOMET_API_URL = os.getenv(\"COMET_API_URL\")\nCOMET_API_TOKEN = os.getenv(\"COMET_API_TOKEN\")",
+        "peekOfCode": "DATABASE_URL = os.getenv(\"DATABASE_URL\")\nCOMET_API_URL = os.getenv(\"COMET_API_URL\")\nCOMET_API_TOKEN = os.getenv(\"COMET_API_TOKEN\")\nTOKEN_USD_PRICE = os.getenv(\"TOKEN_USD_PRICE\")\nMARGIN = os.getenv(\"MARGIN\")\nGROUP_RATIO = os.getenv(\"GROUP_RATIO\")",
         "detail": "config",
         "documentation": {}
     },
@@ -1735,7 +2413,7 @@
         "kind": 5,
         "importPath": "config",
         "description": "config",
-        "peekOfCode": "COMET_API_URL = os.getenv(\"COMET_API_URL\")\nCOMET_API_TOKEN = os.getenv(\"COMET_API_TOKEN\")",
+        "peekOfCode": "COMET_API_URL = os.getenv(\"COMET_API_URL\")\nCOMET_API_TOKEN = os.getenv(\"COMET_API_TOKEN\")\nTOKEN_USD_PRICE = os.getenv(\"TOKEN_USD_PRICE\")\nMARGIN = os.getenv(\"MARGIN\")\nGROUP_RATIO = os.getenv(\"GROUP_RATIO\")",
         "detail": "config",
         "documentation": {}
     },
@@ -1744,7 +2422,34 @@
         "kind": 5,
         "importPath": "config",
         "description": "config",
-        "peekOfCode": "COMET_API_TOKEN = os.getenv(\"COMET_API_TOKEN\")",
+        "peekOfCode": "COMET_API_TOKEN = os.getenv(\"COMET_API_TOKEN\")\nTOKEN_USD_PRICE = os.getenv(\"TOKEN_USD_PRICE\")\nMARGIN = os.getenv(\"MARGIN\")\nGROUP_RATIO = os.getenv(\"GROUP_RATIO\")",
+        "detail": "config",
+        "documentation": {}
+    },
+    {
+        "label": "TOKEN_USD_PRICE",
+        "kind": 5,
+        "importPath": "config",
+        "description": "config",
+        "peekOfCode": "TOKEN_USD_PRICE = os.getenv(\"TOKEN_USD_PRICE\")\nMARGIN = os.getenv(\"MARGIN\")\nGROUP_RATIO = os.getenv(\"GROUP_RATIO\")",
+        "detail": "config",
+        "documentation": {}
+    },
+    {
+        "label": "MARGIN",
+        "kind": 5,
+        "importPath": "config",
+        "description": "config",
+        "peekOfCode": "MARGIN = os.getenv(\"MARGIN\")\nGROUP_RATIO = os.getenv(\"GROUP_RATIO\")",
+        "detail": "config",
+        "documentation": {}
+    },
+    {
+        "label": "GROUP_RATIO",
+        "kind": 5,
+        "importPath": "config",
+        "description": "config",
+        "peekOfCode": "GROUP_RATIO = os.getenv(\"GROUP_RATIO\")",
         "detail": "config",
         "documentation": {}
     }

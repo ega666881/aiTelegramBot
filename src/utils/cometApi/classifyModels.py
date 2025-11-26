@@ -4,14 +4,14 @@ from collections import defaultdict
 class ModelsClasses(Enum):
     TEXTS = "textModels"
     IMAGES = "imagesModels"
-    VIDEO = "videoModels",
-    AUDIO = "audioModels",
-    EDITIND = "editingModels",
-    EMBENDS = "embendModels",
-    OTHER = "otherModels",
+    VIDEO = "videoModels"
+    AUDIO = "audioModels"
+    EDITIND = "editingModels"
+    EMBENDS = "embendModels"
+    OTHER = "otherModels"
 
 
-def classify_model(model_id: str, owned_by: str) -> str:
+def classify_model(model_id: str) -> str:
     model_id_lower = model_id.lower()
 
     
@@ -61,7 +61,7 @@ def getClassifyModels(models: list[str]):
     for model in models:
         model_id = model["id"]
         owner = model.get("owned_by", "unknown")
-        category = classify_model(model_id, owner)
+        category = classify_model(model_id)
         grouped[category][owner].append(model_id)
 
     return grouped

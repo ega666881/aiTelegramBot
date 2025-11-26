@@ -4,7 +4,7 @@ from sqlalchemy import select
 from sqlalchemy.ext.asyncio import AsyncSession
 from aiogram.fsm.context import FSMContext
 from ...database.database import AsyncSessionLocal
-from ...database.models.user import User, UserRepository
+from ...database.repositories.userRepo import User, UserRepository
 from .keyboards.selectPaymentMethod import selectPaymentMethodKeyboard
 from .keyboards.payButtonKeyboard import payKeyboard
 from .states import PaymentStates

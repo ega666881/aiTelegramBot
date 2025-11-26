@@ -2,8 +2,8 @@ from typing import Any, Awaitable, Callable, Dict
 from aiogram import BaseMiddleware
 from aiogram.types import CallbackQuery
 from ..database.database import AsyncSessionLocal
-from ..database.models.user import User, UserRepository
-
+from ..database.repositories.userRepo import UserRepository
+from ..database.models.user import User
 
 class GetUserRepositoryMiddleware(BaseMiddleware):
     async def __call__(

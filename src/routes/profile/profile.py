@@ -4,7 +4,7 @@ from sqlalchemy import select
 from sqlalchemy.ext.asyncio import AsyncSession
 
 from ...database.database import AsyncSessionLocal
-from ...database.models.user import User, UserRepository
+from ...database.repositories.userRepo import UserRepository
 from .keyboards.profileKeyboard import profileKeyboard
 
 

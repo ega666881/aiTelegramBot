@@ -49,7 +49,7 @@ class AIModelsLocale:
     
     @staticmethod
     def getSelectModelText():
-        return "Выберите модель:",
+        return "Выберите модель:"
 
     @staticmethod
     def getChangeModalText(modelName: str):
@@ -71,7 +71,25 @@ class TextModelsLocale:
         ]
 
     
-    
+class ImageModelsLocale:
+    @staticmethod
+    def getHelloMessage():
+        return '🎨 Дизайн с ИИ\nВыберите раздел для работы с изображением 👇'
+
+    @staticmethod
+    def getMjPromtMessage():
+        return '🌄 MidJourney\n✍️ Напишите текстом, что хотите нарисовать или 🌄 загрузите изображение для обработки 👇'
+
+    @staticmethod
+    def getMjSendReqMessage():
+        return 'Запрос на генерацию поставлен в очередь, в чат придет результат генерации'
+
+    @staticmethod
+    def getMainButtons():
+        return [
+            'Midjorney',
+            '◀️Назад'
+        ]
 
 class PaymentLocale:
     @staticmethod
@@ -111,6 +129,7 @@ class RuLocale:
     payment_locale: PaymentLocale
     text_models_locale: TextModelsLocale
     ai_models_locale: AIModelsLocale
+    image_models_locale: ImageModelsLocale
 
     def __init__(self) -> None:
         self.ai_models_locale = AIModelsLocale()
@@ -119,5 +138,6 @@ class RuLocale:
         self.shared_texts = SharedTexts()
         self.payment_locale = PaymentLocale()
         self.text_models_locale = TextModelsLocale()
+        self.image_models_locale = ImageModelsLocale()
 
 ru_locale = RuLocale()

@@ -3,10 +3,11 @@ from aiogram.filters import Command
 
 
 from aiogram.fsm.context import FSMContext
+from src.utils.cometApi.classifyModels import classify_model, getClassifyModels, ModelsClasses
 from ....database.database import AsyncSessionLocal
-from ....database.models.user import User, UserRepository
+from ....database.repositories.userRepo import UserRepository
 from .states import TextModelStates
-from src.utils.aiModels import textModels
+from src.utils.aiModels import textModels, imageModels
 from .keyboards import textModelsKeyboard
 
 
@@ -33,10 +34,18 @@ async def getPromt(message: types.Message, state: FSMContext):
         if "messages_history" in data.keys():
             messages_history = data['messages_history']
 
-        await userRepo.getUser(message.from_user.id) 
+        await userRepo.getUser(message.from_user.id)
+        await userRepo.getSelectedModels() 
         sendedMessage = await message.answer(userRepo.locale.ai_models_locale.getWaitAnswerText())
-        modelResponse = await textModels.sendRequest('gpt-4o', userRepo.user, message.text, messages_history)
+
+        categoryModel = classify_model(userRepo.user.selected_models.text_models)
+
+        if (categoryModel == ModelsClasses.TEXTS.value):
+            modelResponse = await textModels.sendRequest(userRepo.user.selected_models.text_models, userRepo.user, message.text, messages_history)
         
+        elif (categoryModel == ModelsClasses.IMAGES.value):
+            modelResponse = await imageModels.sendRequest(userRepo.user.selected_models.text_models, userRepo.user, message.text, messages_history)
+
         messages_history.append({
             "role": "user",
             "content": message.text,
@@ -47,11 +56,21 @@ async def getPromt(message: types.Message, state: FSMContext):
         })
         messageText = f"{modelResponse['answerText']}"
 
-        await sendedMessage.edit_text(
-            text=messageText,
-            parse_mode="Markdown"
-        )
-        
+        if 'answerPhoto' in modelResponse:
+            answerPhoto = types.InputMediaPhoto(
+                media=modelResponse['answerPhoto'],
+                caption=modelResponse['answerPhoto']
+            )
+            await sendedMessage.edit_media(
+                media=answerPhoto,
+                
+            )
+        else:
+            await sendedMessage.edit_text(
+                text=messageText,
+                parse_mode="Markdown"
+            )
+            
 
        
 

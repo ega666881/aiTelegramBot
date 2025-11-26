@@ -5,7 +5,9 @@ import aiohttp
 import asyncio
 from typing import Optional, Dict, Any
 import random
+from src.utils.cometApi.classifyModels import ModelsClasses
 from . import classifyModels
+import json
 
 baseUrl = config.COMET_API_URL
 
@@ -13,6 +15,9 @@ baseUrl = config.COMET_API_URL
 class Endpoints(Enum):
     GET_MODELS = baseUrl + "/v1/models"
     TEXT_MODEL = baseUrl + "/v1/chat/completions"
+    GET_PRICING = baseUrl + "/api/pricing"
+    MIDJ_IMAGE_CREATE_TASK = baseUrl + "/mj/submit/imagine"
+    MIDJ_IMAGE_CHECK_TASK = baseUrl + "/mj/task/"
 
 class Methods(Enum):
     GET = 'GET'
@@ -21,9 +26,11 @@ class Methods(Enum):
 
 class CometApi:
     models = []
+    modelsPrices = {}
     groupedModels = []
     default_headers = {
-        'Authorization': 'Bearer ' + config.COMET_API_TOKEN
+        'Authorization': 'Bearer ' + config.COMET_API_TOKEN,
+        # 'Content-Type': 'application/json',
     }
 
     async def __fetchWithRetry(
@@ -37,7 +44,7 @@ class CometApi:
         base_delay: float = 1.0,
         max_delay: float = 60.0,
     ):
-        
+        print("FGFFFFFFFFFFFFFFFFFFFFFFFFFFF")
         merged_headers = {**self.default_headers, **(headers or {})}
 
         async with aiohttp.ClientSession() as session:
@@ -50,12 +57,17 @@ class CometApi:
                         json=json_data,
                         headers=merged_headers,
                     ) as response:
-
+                        
                         if response.status == 200:
-                            return await response.json() 
+                            try:
+                                return await response.json()
+
+                            except:
+                                return json.loads(await response.text())
 
 
                 except aiohttp.ClientError as e:
+                    print(e)
                     continue
 
                 if attempt == max_retries:
@@ -64,6 +76,22 @@ class CometApi:
 
                 delay = min(base_delay * (2 ** attempt) + random.uniform(0, 1), max_delay)
                 await asyncio.sleep(delay)
+    
+    async def sendStreamingRequest(self, url: str, body: dict):
+        headers = {**self.default_headers}
+        session = aiohttp.ClientSession()
+        try:
+            response = await session.post(url, json=body, headers=headers)
+            if response.status != 200:
+                await response.read() 
+                response.close()
+                await session.close()
+                raise Exception(f"HTTP {response.status}")
+            
+            return response, session
+        except Exception:
+            await session.close()
+            raise
 
     async def getModels(self):
         response = await self.sendGetRequest(Endpoints.GET_MODELS.value)
@@ -73,7 +101,31 @@ class CometApi:
             self.models.append(model["id"])
 
         self.groupedModels = classifyModels.getClassifyModels(data)
+        
     
+    async def getPricingModels(self):
+        response = await self.sendGetRequest(Endpoints.GET_PRICING.value)
+        data = response['data']
+        for model in data:
+            model_name: str = model["model_name"]
+            quota_type = model["quota_type"]
+            model_price = model["model_price"]
+            if quota_type == 1 and model_price > 0:
+                price_with_margin_usd = model_price * float(config.GROUP_RATIO) * float(config.MARGIN)
+                cost_in_tokens = price_with_margin_usd / float(config.TOKEN_USD_PRICE)
+                self.modelsPrices[model_name] = round(cost_in_tokens)
+                
+            
+            else:
+                BASE_PRICE = 1
+                C_1K = float(model['model_ratio']) * BASE_PRICE * float(config.GROUP_RATIO)
+                P_1K = C_1K / 0.3
+                self.modelsPrices[model_name] = round(P_1K)
+            
+        
+        with open('t.json', 'w') as file:
+            file.write(json.dumps(self.modelsPrices, indent=4))
+
     def getModelsByCategory(self, categoryName: str):
         result = []
         for provider, models_list in self.groupedModels[categoryName].items():
@@ -96,48 +148,9 @@ class CometApi:
         return await self.__fetchWithRetry(Methods.GET.value, url, params)
 
 
-class TextModels(CometApi):
 
-    def __checkValidModel(self, modelName: str):
-        if modelName not in super().models:
-            return False
-        
-        else:
-            return True
-        
-    async def sendTextRequest(self, modelName: str, promt: str, messagesHistory: list = []):
-        if self.__checkValidModel(modelName):
-
-            messages = [
-                *messagesHistory,
-                {
-                    "content": promt,
-                    "role": "user"
-                },
-            ]
-
-            responseJson = await super().sendPostRequest(
-                Endpoints.TEXT_MODEL.value, 
-                {
-                    "model": modelName,
-                    "messages": messages,
-                }
-            )
-
-            answerModel = responseJson['model']
-            answerMessage = responseJson['choices'][0]['message']
-
-            return {
-                "model": answerModel,
-                "answerText": answerMessage['content'],
-                "answer": answerMessage,
-            }
-        
-        else:
-            return False
         
 
 
 
 cometApi = CometApi()
-textModels = TextModels()

@@ -1,12 +1,8 @@
 from datetime import datetime
-from sqlalchemy import Integer, String, DateTime, BigInteger
-from sqlalchemy.orm import DeclarativeBase, Mapped, mapped_column
+from sqlalchemy import Integer, String, DateTime, BigInteger, ForeignKey
+from sqlalchemy.orm import DeclarativeBase, Mapped, mapped_column, relationship
+from sqlalchemy import event
 from .base import Base
-from ...i18btn.getLang import getLocale
-from ...i18btn.locales.ru import RuLocale
-
-from sqlalchemy import select
-from sqlalchemy.ext.asyncio import AsyncSession
 
 class User(Base):
     __tablename__ = "users"
@@ -16,41 +12,35 @@ class User(Base):
     username: Mapped[str] = mapped_column(String, nullable=True)
     tokens: Mapped[int] = mapped_column(Integer, nullable=False, default=0)
     lang: Mapped[str] = mapped_column(String, nullable=True, default='eng')
-    created_at: Mapped[datetime] = mapped_column(
-        DateTime,
-        default=datetime.utcnow
+    created_at: Mapped[datetime] = mapped_column(DateTime, default=datetime.utcnow)
+
+    
+    selected_models: Mapped["UserSelectedModel"] = relationship(
+        "UserSelectedModel",
+        back_populates="user",
+        uselist=False,  # ← Это ключевое: не list, а один объект
+        cascade="all, delete-orphan"
     )
 
     def __repr__(self):
         return f"<User(telegram_id={self.telegram_id}, username={self.username})>"
-
-
-class UserRepository: 
-    session: AsyncSession
-    telegram_id: int
-    user: User = None
-    locale: RuLocale
-
-    def __init__(self, session: AsyncSession,):
-        self.session = session
-
     
-    async def getUser(self, telegram_id):
-        result = await self.session.execute(
-            select(User).where(User.telegram_id == telegram_id)
-        )
-        self.user = result.scalar_one_or_none()
-        if self.user:
-            self.locale = getLocale(self.user.lang)
+class UserSelectedModel(Base):
+    __tablename__ = "user_selected_models"
 
-    async def createUser(self, user: User):
-        self.session.add(user)
-        await self.session.commit()
-        await self.session.refresh(user)
-        self.user = user
-        self.locale = getLocale(self.user.lang)
+    id: Mapped[int] = mapped_column(Integer, primary_key=True)
+    user_id: Mapped[int] = mapped_column(ForeignKey("users.id"), unique=True)
+    text_models: Mapped[str] = mapped_column(String, nullable=True)
+    audio_models: Mapped[str] = mapped_column(String, nullable=True)
+    video_models: Mapped[str] = mapped_column(String, nullable=True)
+    image_models: Mapped[str] = mapped_column(String, nullable=True)
+    editing_models: Mapped[str] = mapped_column(String, nullable=True)
+    other_models: Mapped[str] = mapped_column(String, nullable=True)
+    embends_models: Mapped[str] = mapped_column(String, nullable=True)
 
-    async def updateUser(self):
-        await self.session.commit()
-        await self.session.refresh(self.user)
-        self.locale = getLocale(self.user.lang)
+    user: Mapped["User"] = relationship(back_populates="selected_models")
+
+
+@event.listens_for(User, "init")
+def init_user_selected_models(target, args, kwargs):
+    target.selected_models = UserSelectedModel()
