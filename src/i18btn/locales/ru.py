@@ -78,16 +78,27 @@ class ImageModelsLocale:
 
     @staticmethod
     def getMjPromtMessage():
-        return '🌄 MidJourney\n✍️ Напишите текстом, что хотите нарисовать или 🌄 загрузите изображение для обработки 👇'
+        return '🌄 MidJourney\n✍️ Напишите текстом, что хотите нарисовать'
+
+    @staticmethod
+    def getGemeniPromtMessage():
+        return 'Gemeni pro 3 image\n✍️ Напишите текстом, что хотите нарисовать'
 
     @staticmethod
     def getMjSendReqMessage():
         return 'Запрос на генерацию поставлен в очередь, в чат придет результат генерации'
 
     @staticmethod
+    def getMjAnswerButtons():
+        return [
+            'Отправить новый запрос на генерацию'
+        ]
+
+    @staticmethod
     def getMainButtons():
         return [
             'Midjorney',
+            'Gemeni pro 3',
             '◀️Назад'
         ]
 

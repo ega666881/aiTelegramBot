@@ -18,6 +18,7 @@ class Endpoints(Enum):
     GET_PRICING = baseUrl + "/api/pricing"
     MIDJ_IMAGE_CREATE_TASK = baseUrl + "/mj/submit/imagine"
     MIDJ_IMAGE_CHECK_TASK = baseUrl + "/mj/task/"
+    GEMENI_IMAGE = baseUrl + "/v1beta/models/"
 
 class Methods(Enum):
     GET = 'GET'
@@ -44,7 +45,7 @@ class CometApi:
         base_delay: float = 1.0,
         max_delay: float = 60.0,
     ):
-        print("FGFFFFFFFFFFFFFFFFFFFFFFFFFFF")
+        
         merged_headers = {**self.default_headers, **(headers or {})}
 
         async with aiohttp.ClientSession() as session:
@@ -57,7 +58,7 @@ class CometApi:
                         json=json_data,
                         headers=merged_headers,
                     ) as response:
-                        
+                        print(response)
                         if response.status == 200:
                             try:
                                 return await response.json()

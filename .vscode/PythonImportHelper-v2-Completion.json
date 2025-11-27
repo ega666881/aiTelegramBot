@@ -1068,6 +1068,22 @@
         "documentation": {}
     },
     {
+        "label": "InlineKeyboardMarkup",
+        "importPath": "aiogram.types",
+        "description": "aiogram.types",
+        "isExtraImport": true,
+        "detail": "aiogram.types",
+        "documentation": {}
+    },
+    {
+        "label": "InlineKeyboardButton",
+        "importPath": "aiogram.types",
+        "description": "aiogram.types",
+        "isExtraImport": true,
+        "detail": "aiogram.types",
+        "documentation": {}
+    },
+    {
         "label": "ReplyKeyboardMarkup",
         "importPath": "aiogram.types",
         "description": "aiogram.types",
@@ -1212,6 +1228,14 @@
         "documentation": {}
     },
     {
+        "label": "UserRepository",
+        "importPath": "src.database.repositories.userRepo",
+        "description": "src.database.repositories.userRepo",
+        "isExtraImport": true,
+        "detail": "src.database.repositories.userRepo",
+        "documentation": {}
+    },
+    {
         "label": "src.utils.aiModels",
         "kind": 6,
         "isExtraImport": true,
@@ -1230,6 +1254,14 @@
     },
     {
         "label": "textModels",
+        "importPath": "src.utils.aiModels",
+        "description": "src.utils.aiModels",
+        "isExtraImport": true,
+        "detail": "src.utils.aiModels",
+        "documentation": {}
+    },
+    {
+        "label": "imageModels",
         "importPath": "src.utils.aiModels",
         "description": "src.utils.aiModels",
         "isExtraImport": true,
@@ -1469,6 +1501,14 @@
         "documentation": {}
     },
     {
+        "label": "Enum",
+        "importPath": "enum",
+        "description": "enum",
+        "isExtraImport": true,
+        "detail": "enum",
+        "documentation": {}
+    },
+    {
         "label": "textModels",
         "importPath": "src.utils.cometApi.category.textModels",
         "description": "src.utils.cometApi.category.textModels",
@@ -1490,6 +1530,14 @@
         "description": "src.utils.cometApi.category.midJModel",
         "isExtraImport": true,
         "detail": "src.utils.cometApi.category.midJModel",
+        "documentation": {}
+    },
+    {
+        "label": "gemModel",
+        "importPath": "src.utils.cometApi.category.gemImageModel",
+        "description": "src.utils.cometApi.category.gemImageModel",
+        "isExtraImport": true,
+        "detail": "src.utils.cometApi.category.gemImageModel",
         "documentation": {}
     },
     {
@@ -1518,6 +1566,15 @@
         "documentation": {}
     },
     {
+        "label": "aiohttp",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "aiohttp",
+        "description": "aiohttp",
+        "detail": "aiohttp",
+        "documentation": {}
+    },
+    {
         "label": "re",
         "kind": 6,
         "isExtraImport": true,
@@ -1527,12 +1584,29 @@
         "documentation": {}
     },
     {
+        "label": "base64",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "base64",
+        "description": "base64",
+        "detail": "base64",
+        "documentation": {}
+    },
+    {
         "label": "json",
         "kind": 6,
         "isExtraImport": true,
         "importPath": "json",
         "description": "json",
         "detail": "json",
+        "documentation": {}
+    },
+    {
+        "label": "mjAnswerKeyboard",
+        "importPath": "src.routes.aiModels.imageModels.keyboards.mjAnswerKeyboard",
+        "description": "src.routes.aiModels.imageModels.keyboards.mjAnswerKeyboard",
+        "isExtraImport": true,
+        "detail": "src.routes.aiModels.imageModels.keyboards.mjAnswerKeyboard",
         "documentation": {}
     },
     {
@@ -1550,15 +1624,6 @@
         "importPath": "requests",
         "description": "requests",
         "detail": "requests",
-        "documentation": {}
-    },
-    {
-        "label": "aiohttp",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "aiohttp",
-        "description": "aiohttp",
-        "detail": "aiohttp",
         "documentation": {}
     },
     {
@@ -2044,7 +2109,7 @@
         "kind": 6,
         "importPath": "src.i18btn.locales.ru",
         "description": "src.i18btn.locales.ru",
-        "peekOfCode": "class ImageModelsLocale:\n    @staticmethod\n    def getHelloMessage():\n        return '🎨 Дизайн с ИИ\\nВыберите раздел для работы с изображением 👇'\n    @staticmethod\n    def getMjPromtMessage():\n        return '🌄 MidJourney\\n✍️ Напишите текстом, что хотите нарисовать или 🌄 загрузите изображение для обработки 👇'\n    @staticmethod\n    def getMjSendReqMessage():\n        return 'Запрос на генерацию поставлен в очередь, в чат придет результат генерации'",
+        "peekOfCode": "class ImageModelsLocale:\n    @staticmethod\n    def getHelloMessage():\n        return '🎨 Дизайн с ИИ\\nВыберите раздел для работы с изображением 👇'\n    @staticmethod\n    def getMjPromtMessage():\n        return '🌄 MidJourney\\n✍️ Напишите текстом, что хотите нарисовать'\n    @staticmethod\n    def getGemeniPromtMessage():\n        return 'Gemeni pro 3 image\\n✍️ Напишите текстом, что хотите нарисовать'",
         "detail": "src.i18btn.locales.ru",
         "documentation": {}
     },
@@ -2103,11 +2168,20 @@
         "documentation": {}
     },
     {
+        "label": "mjAnswerKeyboard",
+        "kind": 2,
+        "importPath": "src.routes.aiModels.imageModels.keyboards.mjAnswerKeyboard",
+        "description": "src.routes.aiModels.imageModels.keyboards.mjAnswerKeyboard",
+        "peekOfCode": "def mjAnswerKeyboard(buttonsTexts: list, imageUrls: list[str]):\n    buttons = []\n    counter = 1\n    for url in imageUrls:\n        buttons.append(\n            [\n                InlineKeyboardButton(url=url, text=f'Download image {counter}'),\n            ],\n        )\n        counter += 1",
+        "detail": "src.routes.aiModels.imageModels.keyboards.mjAnswerKeyboard",
+        "documentation": {}
+    },
+    {
         "label": "mainMenuKeyboard",
         "kind": 2,
         "importPath": "src.routes.aiModels.imageModels.keyboards.selectImageModelKeyboard",
         "description": "src.routes.aiModels.imageModels.keyboards.selectImageModelKeyboard",
-        "peekOfCode": "def mainMenuKeyboard(buttonsTexts: list):\n    buttons = [\n        [\n            InlineKeyboardButton(text=buttonsTexts[0], callback_data='select_mj')\n        ],\n        [\n            InlineKeyboardButton(text=buttonsTexts[1], callback_data='back_main'),\n        ],\n    ]\n    keyboard = InlineKeyboardMarkup(inline_keyboard=buttons)",
+        "peekOfCode": "def mainMenuKeyboard(buttonsTexts: list):\n    buttons = [\n        [\n            InlineKeyboardButton(text=buttonsTexts[0], callback_data='select_mj')\n        ],\n        [\n            InlineKeyboardButton(text=buttonsTexts[1], callback_data='select_gem')\n        ],\n        [\n            InlineKeyboardButton(text=buttonsTexts[2], callback_data='back_main'),",
         "detail": "src.routes.aiModels.imageModels.keyboards.selectImageModelKeyboard",
         "documentation": {}
     },
@@ -2116,7 +2190,7 @@
         "kind": 5,
         "importPath": "src.routes.aiModels.imageModels.imageModels",
         "description": "src.routes.aiModels.imageModels.imageModels",
-        "peekOfCode": "router = Router()\n@router.callback_query(F.data == 'imageModels')\nasync def imageModelsHandler(call: types.CallbackQuery, userRepo: UserRepository):\n    await call.message.edit_text(\n        userRepo.locale.image_models_locale.getHelloMessage(), \n        reply_markup=selectImageModelKeyboard.mainMenuKeyboard(userRepo.locale.image_models_locale.getMainButtons())\n        )\n@router.callback_query(F.data == 'select_mj')\nasync def selectMjModel(call: types.CallbackQuery, state: FSMContext, userRepo: UserRepository):\n    await state.set_state(ImageModelStates.GET_MJ_PROMT_MESSAGE)",
+        "peekOfCode": "router = Router()\n@router.callback_query(F.data == 'imageModels')\nasync def imageModelsHandler(call: types.CallbackQuery, userRepo: UserRepository, state: FSMContext):\n    await state.set_state(None)\n    await call.message.edit_text(\n        userRepo.locale.image_models_locale.getHelloMessage(), \n        reply_markup=selectImageModelKeyboard.mainMenuKeyboard(userRepo.locale.image_models_locale.getMainButtons())\n        )\n@router.callback_query(F.data == 'select_mj')\nasync def selectMjModel(call: types.CallbackQuery, state: FSMContext, userRepo: UserRepository):",
         "detail": "src.routes.aiModels.imageModels.imageModels",
         "documentation": {}
     },
@@ -2125,7 +2199,7 @@
         "kind": 6,
         "importPath": "src.routes.aiModels.imageModels.states",
         "description": "src.routes.aiModels.imageModels.states",
-        "peekOfCode": "class ImageModelStates(StatesGroup):\n    GET_MJ_PROMT_MESSAGE = State()",
+        "peekOfCode": "class ImageModelStates(StatesGroup):\n    GET_MJ_PROMT_MESSAGE = State()\n    GET_GEMENI_PROMT_MESSAGE = State()",
         "detail": "src.routes.aiModels.imageModels.states",
         "documentation": {}
     },
@@ -2283,6 +2357,24 @@
         "documentation": {}
     },
     {
+        "label": "GemeniImageModel",
+        "kind": 6,
+        "importPath": "src.utils.cometApi.category.gemImageModel",
+        "description": "src.utils.cometApi.category.gemImageModel",
+        "peekOfCode": "class GemeniImageModel(CometApi):\n    async def sendGenerateRequest(self, promt: str):\n        response = await super().sendPostRequest(Endpoints.GEMENI_IMAGE.value + 'gemini-3-pro-image:generateContent', {\n            \"contents\": [\n                {\n                    \"role\": 'user',\n                    \"parts\": [\n                        {\n                            'text': promt,\n                        }",
+        "detail": "src.utils.cometApi.category.gemImageModel",
+        "documentation": {}
+    },
+    {
+        "label": "gemModel",
+        "kind": 5,
+        "importPath": "src.utils.cometApi.category.gemImageModel",
+        "description": "src.utils.cometApi.category.gemImageModel",
+        "peekOfCode": "gemModel = GemeniImageModel()",
+        "detail": "src.utils.cometApi.category.gemImageModel",
+        "documentation": {}
+    },
+    {
         "label": "MidJorneyModel",
         "kind": 6,
         "importPath": "src.utils.cometApi.category.midJModel",
@@ -2319,6 +2411,15 @@
         "documentation": {}
     },
     {
+        "label": "TasksCometStatus",
+        "kind": 6,
+        "importPath": "src.utils.cometApi.checkTasksModels",
+        "description": "src.utils.cometApi.checkTasksModels",
+        "peekOfCode": "class TasksCometStatus(Enum):\n    SUCCESS = 'SUCCESS'\nasync def checkTasksModels(bot: Bot):\n    while True:\n        async with AsyncSessionLocal() as session:\n            tasksRepo = ModelTaskRepo(session)\n            userRepo = UserRepository(session)\n            tasks = await tasksRepo.getAllTasks()\n            for task in tasks:\n                await userRepo.getUser(task.telegram_id)",
+        "detail": "src.utils.cometApi.checkTasksModels",
+        "documentation": {}
+    },
+    {
         "label": "ModelsClasses",
         "kind": 6,
         "importPath": "src.utils.cometApi.classifyModels",
@@ -2350,7 +2451,7 @@
         "kind": 6,
         "importPath": "src.utils.cometApi.cometApi",
         "description": "src.utils.cometApi.cometApi",
-        "peekOfCode": "class Endpoints(Enum):\n    GET_MODELS = baseUrl + \"/v1/models\"\n    TEXT_MODEL = baseUrl + \"/v1/chat/completions\"\n    GET_PRICING = baseUrl + \"/api/pricing\"\n    MIDJ_IMAGE_CREATE_TASK = baseUrl + \"/mj/submit/imagine\"\n    MIDJ_IMAGE_CHECK_TASK = baseUrl + \"/mj/task/\"\nclass Methods(Enum):\n    GET = 'GET'\n    POST = 'POST'\n    PUT = 'PUT'",
+        "peekOfCode": "class Endpoints(Enum):\n    GET_MODELS = baseUrl + \"/v1/models\"\n    TEXT_MODEL = baseUrl + \"/v1/chat/completions\"\n    GET_PRICING = baseUrl + \"/api/pricing\"\n    MIDJ_IMAGE_CREATE_TASK = baseUrl + \"/mj/submit/imagine\"\n    MIDJ_IMAGE_CHECK_TASK = baseUrl + \"/mj/task/\"\n    GEMENI_IMAGE = baseUrl + \"/v1beta/models/\"\nclass Methods(Enum):\n    GET = 'GET'\n    POST = 'POST'",
         "detail": "src.utils.cometApi.cometApi",
         "documentation": {}
     },
@@ -2377,7 +2478,7 @@
         "kind": 5,
         "importPath": "src.utils.cometApi.cometApi",
         "description": "src.utils.cometApi.cometApi",
-        "peekOfCode": "baseUrl = config.COMET_API_URL\nclass Endpoints(Enum):\n    GET_MODELS = baseUrl + \"/v1/models\"\n    TEXT_MODEL = baseUrl + \"/v1/chat/completions\"\n    GET_PRICING = baseUrl + \"/api/pricing\"\n    MIDJ_IMAGE_CREATE_TASK = baseUrl + \"/mj/submit/imagine\"\n    MIDJ_IMAGE_CHECK_TASK = baseUrl + \"/mj/task/\"\nclass Methods(Enum):\n    GET = 'GET'\n    POST = 'POST'",
+        "peekOfCode": "baseUrl = config.COMET_API_URL\nclass Endpoints(Enum):\n    GET_MODELS = baseUrl + \"/v1/models\"\n    TEXT_MODEL = baseUrl + \"/v1/chat/completions\"\n    GET_PRICING = baseUrl + \"/api/pricing\"\n    MIDJ_IMAGE_CREATE_TASK = baseUrl + \"/mj/submit/imagine\"\n    MIDJ_IMAGE_CHECK_TASK = baseUrl + \"/mj/task/\"\n    GEMENI_IMAGE = baseUrl + \"/v1beta/models/\"\nclass Methods(Enum):\n    GET = 'GET'",
         "detail": "src.utils.cometApi.cometApi",
         "documentation": {}
     },
